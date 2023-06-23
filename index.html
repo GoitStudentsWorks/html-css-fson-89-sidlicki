@@ -1,0 +1,1067 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <link rel="icon" type="image/svg+xml" href="/html-css-fson-89-sidlicki/favicon.svg" />
+  <!-- <link rel="preconnect" href="https://fonts.googleapis.com" /> -->
+  <!-- <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin /> -->
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.1.0/modern-normalize.min.css" />
+  <!-- <link
+    href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500;1,600;1,700&display=swap"
+    rel="stylesheet" /> -->
+  <title>Simply Сhocolate</title>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.css" />
+  <!--  -->
+  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+  <!--  -->
+  
+  <script type="module" crossorigin src="/html-css-fson-89-sidlicki/assets/index-5e46f423.js"></script>
+  <link rel="stylesheet" href="/html-css-fson-89-sidlicki/assets/index-2ebafc62.css">
+</head>
+
+<body>
+  <!-- прошу в усіх своїх классах, крім тих що прописані в /reset.css додавати приставку -header, щоб уникнути дублювання стилів -->
+<header class="page-header" id="home">
+  <!-- розмір контейнера вже заданий в /reset.css для всіх пристроїв -->
+  <div class="page-header-container container">
+    <!-- починай писати свій код під цією лінією -->
+    <div class="header-logo-wrapper">
+      <span class="header-logo-text"> <span class="span-header-font-italic">SIMPLY </span>CHOCOLATE</span>
+      <svg class="header-logo-icon" width="21" height="21">
+        <use href="/html-css-fson-89-sidlicki/assets/sprite-840015d5.svg#icon-chocolate"></use>
+      </svg>
+    </div>
+    <nav class="header-navigation navigation">
+      <ul class="header-navigation-list list">
+        <li class="header-navigation-list-item">
+          <a href="#home" class="header-navigation-link link">Home</a>
+        </li>
+        <li class="header-navigation-list-item">
+          <a href="#made" class="header-navigation-link link">How it&#039;s made?</a>
+        </li>
+        <li class="header-navigation-list-item">
+          <a href="#products" class="header-navigation-link link">Our products</a>
+        </li>
+        <li class="header-navigation-list-item">
+          <a href="#sellers" class="header-navigation-link link">Top sellers</a>
+        </li>
+        <li class="header-navigation-list-item">
+          <a href="#reviews" class="header-navigation-link link">Chocolate is loved</a>
+        </li>
+      </ul>
+    </nav>
+    <div class="header-networks-wrapper">
+      <ul class="header-networks-list list">
+        <li class="header-networks-list-item">
+          <a href="https://www.twitter.com/" target="_blank" rel="noreferrer noopener"
+            class="header-networks-link link">
+            <svg class="header-networks-twitter-icon" width="24" height="24">
+              <use href="/html-css-fson-89-sidlicki/assets/sprite-840015d5.svg#icon-twitter"></use>
+            </svg>
+          </a>
+        </li>
+        <li class="header-networks-list-item">
+          <a href="https://www.instagram.com/" target="_blank" rel="noreferrer noopener"
+            class="header-networks-link link">
+            <svg class="header-networks-instagram-icon" width="24" height="24">
+              <use href="/html-css-fson-89-sidlicki/assets/sprite-840015d5.svg#icon-instagram"></use>
+            </svg>
+          </a>
+        </li>
+      </ul>
+    </div>
+    <button type="button" class="mobile-menu-open-btn js-open-menu" aria-expanded="false">
+      <svg class="mobile-menu-open-btn-icon" width="28" height="28">
+        <use href="/html-css-fson-89-sidlicki/assets/sprite-840015d5.svg#icon-burger"></use>
+      </svg>
+    </button>
+    <!-- твій код має бути вище цієї лінії -->
+  </div>
+  <div class="mobile-menu js-menu-container">
+    <div class="mobile-menu-container">
+      <button type="button" class="mobile-menu-close-btn js-close-menu">
+        <svg class="mobile-menu-close-btn-icon" width="28" height="28">
+          <use href="/html-css-fson-89-sidlicki/assets/sprite-840015d5.svg#icon-close"></use>
+        </svg>
+      </button>
+      <ul class="mobile-menu-list list">
+        <li class="mobile-menu-list-item">
+          <a href="#home" class="mobile-menu-list-link link">Home</a>
+        </li>
+        <li class="mobile-menu-list-item">
+          <a href="#made" class="mobile-menu-list-link link">How it&#039;s made?</a>
+        </li>
+        <li class="mobile-menu-list-item">
+          <a href="#products" class="mobile-menu-list-link link">Our products</a>
+        </li>
+        <li class="mobile-menu-list-item">
+          <a href="#sellers" class="mobile-menu-list-link link">Top sellers</a>
+        </li>
+        <li class="mobile-menu-list-item">
+          <a href="#reviews" class="mobile-menu-list-link link">Chocolate is loved</a>
+        </li>
+      </ul>
+      <div class="mobile-menu-networks-wrapper">
+        <ul class="mobile-menu-networks-list list">
+          <li class="mobile-menu-networks-list-item">
+            <a href="https://www.twitter.com/" target="_blank" rel="noreferrer noopener"
+              class="mobile-menu-networks-link link">
+              <svg class="mobile-menu-networks-twitter-icon" width="22" height="22">
+                <use href="/html-css-fson-89-sidlicki/assets/sprite-840015d5.svg#icon-twitter"></use>
+              </svg>
+            </a>
+          </li>
+          <li class="mobile-menu-networks-list-item">
+            <a href="https://www.instagram.com/" target="_blank" rel="noreferrer noopener"
+              class="mobile-menu-networks-link link">
+              <svg class="mobile-menu-networks-instagram-icon" width="22" height="22">
+                <use href="/html-css-fson-89-sidlicki/assets/sprite-840015d5.svg#icon-instagram"></use>
+              </svg>
+            </a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </div>
+</header>
+  <main>
+    <!-- прошу в усіх своїх классах, крім тих що прописані в /reset.css додавати приставку -hero, щоб уникнути дублювання стилів -->
+<section class="hero-section" data-aos="fade-up" data-aos-duration="1000">
+  <!-- розмір контейнера вже заданий в /reset.css для всіх пристроїв -->
+  <div class="container">
+    <!-- починай писати свій код під цією лінією -->
+    <div class="hero-content">
+      <h2 class="hero-section-title visually-hidden">Hero</h2>
+      <h3 class="hero-section-subtitle">
+        Treat yourself or a loved one to our finest ingredients for a moment of pure delight!
+      </h3>
+      <div class="container-btn-general">
+        <div class="container-btn">
+          <button type="button" class="hero-btn-one list js-open-modal" data-modal="1">Buy now</button>
+          <a class="hero-btn-two link" href="#made">How it's made</a>
+        </div>
+        <a class="hero-btn-scroll link" href="#footer">scroll down
+          <div class="hero-btn-scroll-cont">
+            <svg class="hero-btn-scroll-icon">
+              <use href="/html-css-fson-89-sidlicki/assets/sprite-840015d5.svg#icon-arrow"></use>
+            </svg>
+          </div>
+        </a>
+      </div>
+    </div>
+    <!-- твій код має бути вище цієї лінії -->
+  </div>
+</section>
+
+<!------------------------------------------->
+
+<!------------MODAL WINDOW ORDER / BUY--------->
+
+<div class="modal hero-modal-window" data-modal="1">
+  <button type="button" class="hero-modal-close-btn js-modal-close">
+    <svg class="hero-modal-close-btn-icon">
+      <use href="/html-css-fson-89-sidlicki/assets/sprite-840015d5.svg#icon-close"></use>
+    </svg>
+  </button>
+  <h2 class="section-title hero-modal-buy-text">
+    BUY<span class="section-title text-add"> NOW</span>
+  </h2>
+
+  <ul class="hero-modal-buy-ul">
+    <li class="hero-modal-buy-item list">
+      <div class="hero-modal-buy-item-card">
+        <picture>
+          <source
+            srcset="data:image/webp;base64,UklGRuYMAABXRUJQVlA4WAoAAAAQAAAAeAAAagAAQUxQSO0HAAABGYVt26BwjInofxgRjg6AKnAEAsn5e88QERlk3FTbtizP7/6P/q9/BJcI2gHXlQYUIAERyEATAjC6rJyXnRMxARPgC9u2Y5Kk/TvO634iIp2Ftt09tm3btm3bs2Z75rVte2zPtK1yZkQ893UuRDoiXi1FxAQg/HvZvdXN56fT419x4K9+/e031dSZe/fxsLR4g5e//baaLud8knWbh77mnCmy9LgnsNHysNeeFVNi+U2zbLK5x/OOngo3/gBbePojT5983Rc9lq3dfcvehDv2nUO2vNtMtBu+m23s7l6dXLOvfCjbOnf28qQ6/bVmu0+eTLrfCyvbrro8Xozv9F5+e3bkcZ0xusmv/fjTp22BZg+o/tfDrxiP3pnPe+R5zzn/0OdP2wSvtgV0/+EB/XHo3/vBPWD+Geef/whtxDSQAMLDx/3BOPzhVax92u+vfmppvdDGE5D+2p3anXf95azffe7+bz3u4AIARL0RIN7e65933OCp39wA3OI3rzjZOQPHmgXIf/7FKzvsgQ988t9tiKU3zFSOIoEPoH/53X6+s/78r/75Bvs2hhipGvzmKz7kHXXdMV/ZxaT8p4ce2FG8/rbtxPjD916/QE3f4NxzzzrzrLPOPO2k3dqWr+/92sRY/0c//snPfvGLn//iVxde8R+P2I4Dt3/vxNmojnvpDbfBbzp9/+QC3WZl12wjbQkX3ODqScbuI3NLi4sz3Sa0uctvc81EY+ZnNdNAaFMXfZDJvnh+rVkT8CakD/3JhOvVK9IGb0JSffYVE05HX5hpexMSXHfTX004llavN7AhMXr9DT486XTc9xjVxgT56pvum3Asfytts66CNaWfHv9cT7hYvNa28YjYYOe/HviLCcexFyZrSawpdj/os//0F2cx6Wf71yJGRoXo3uYVj9rFNNz7YzAWICTpuJsXpuPiL4cCgxBQuwOmZeHKkBKDkL+VTM89P5VIMBLf+1Om6PwlfVGFbZWPH5wmOnpFam01vd6lH2OqHtMZaNB0OyX40r9MF/ki9wOjmD9murAYtS/JqOltwFcdPHjW4qRr5kYsWXW9/d9dOO7Yq/d0JxwL7hMgrV51whr+4dV3ONoMrlmIyVYXNAws+cjFZ69x/uBmJbortSYTboaKAqv92m0FHPzFHQJmdVhM+CygECa/2zsX+N5NZnDdv2eGSV8dijCG675z12D16lNVdg9lJn72SzOCyX88/lyumZ89dhfjumLUBMbYNtiobykiJAmwMenRpnQjAG6vq758q6Y96Rgztj/dl8wudZVUYzLTw+HB/0wnDpXSaZqmqCio7eFT7166JTC7XoD7yck3YIy717nd35+Zm+kUEMaJdw2vhUraNpLCsjG9TtMpIfu6r91fAYVxblZdh/uu7y8cuxRgbAvOuMBgYxIM8ppqoiklMV+++4mMe0brrIPD180e3wuSxEh7BoctsA2JbGOMIjoh2b7uT56iMcsLjy/GqP/zX2rPacc3tiy68/tlwNjGBtuEVBqFIf3veZcxO1TmutVnH7Nv4cofHjl4aO7YMLJ9wrUG41HSNkKKKGXYlY1Wf/fBy+O1dNvO/ExpOZaVP2yzZiClzUKsMppOJwYIRUQ0rRuk1MV//1SNFUui9IDLfucJvaYZ9qsScLN4BLDBZIKFVIqi+NBsxw7yH69/eIzVmm6vufKx3SP9lQNXkmBgubWNjFPGIhRSUeO2P1PCMPyTM28SYzZc2Xekd+6xjQ9fff2QNcUsZl0LhJAiQni1XUCYQ79+i1s24+M67A/dKzGs6SQlkFBEI2RAArBEaNTW6uqykPOq3znpYWWLjLbFtbY1kZy1pp1IIlAEck8gJBBCOCyBEhgeXhaorv7F5U9b3pIqpC2rtU2wnTWddhiFAqkgBdkVAoEsC2EBEokYHppvbLl+7T8ec8YWDAw9ttR12GKRlVoz0yBFiZAipJBU1QEEyLIwCCFjsDU82MwVO/n5b5z9hN4mfJBie1GbysGgOkhqzWwz7ZSilKY0URSSQOmOLCOwEIi1hc2oj/S7vSAZ/uO3HnWD2Ej/ml4Hs8rRZSMe9Pu1KTjT1VkxtgrRlBIlQqOIzIJAAAIDaI01jcG50naagvOiP4y7nbMUQFsP71vZW9Ky9/fPWNBIDlcOrZZOR2mn05mWUVCiNCqlFEmBwHZIKdbXyEbNiJI6aNVEZF7w7X0n71ma6w9WesuLGCdw4PzjTu4ur+y/st9ZnAmlXY1tCVSIRqVEiZCkcJh0SCC2+mBdbAwGSIZDq4i6eslqbRcWFpsUGGzR/urSvb395cTlDratFAakiFCJKFEUBJIsMiXEdvrQke5czwBW4jocGkGmjR1YwgLLeeXVJyxhp0gsXIiQSoQiIhQKISNlSmLb65EVFnthsEiTbTuoFa0JgRyAsZNMV0gHaDQUEaEgRCFACFdJ7Ej3D2VvtglsSJzZDob9NqPT6XQoDksosdOZOGWHREgKBUIhCZAsKhI71sMj/bbpdTtNkrYzs9bByko/y9zcXLcrYdKjSZURUkBRCAgEEgIngdjxUjPT6zbRNCWctbZZM4nS687OdJugZq21trXWmjWzuhpAIGSwISTGVGp6vV7TEW3N1pnGGEV0Or1uI7Kttc3MrJlZQQIBAokA5PHYYESEGLXttBlVlCYC207boDUZFevK47XtQoAQiFEB1hrT02uY9YU8JTZv/v8vAFZQOCDSBAAAsB0AnQEqeQBrAD6RPJlHpaOioSyVHWiwEglnANNY4MpS/on4X/pzBcaAjutfTJrEppfSjleL0IDN6pFkv/xCVSS3vVT0CJpYG6FlPrwUmKqZ+JvX1D1VnL+UbuN4dg0T2n6FD0GwB1iyjq81NaLOS052MyRFetRSa8xWxnmZMYA1JzuwnDDpfJPYvdzhGciA83SHLkIQlF6hmw3YdszasFT4JsFRdYXuSvG8jO69cajNS6WDh4NvuAQTSYdWOnvWG1SiN/sI/qdL+YHHQzh6tkiiE933ao7UHN15GsBvZ72iVBOcLuXeC2NER2Nvna3RArvEIWxAAP78XNAAEX5SIHTYc1nQpW5upWjpckjEgVljwB5cIcl6WhuEhRJ8rihfWWqrNhYAEYR9SLbuSnhQKo5NcI1U5owD8Yy+lkSEUZl6g/E6hXDAR/wWdtUx3E6uyMdBds92PUOAE3+H6H3IQfAz6jP21H7IB5eOYvz9IO51fyQzTxvzlQiW0QKTqkRkv7RzJhk4JcDRVj5VhVwXt3KpLmVyYdnKyqsK78K56+7qSByyskOtlcdI88J2CxIMMU++BZYO5G3T0I0uPIcp4Mt+yKp9HAH9Ci0C8dkfnj27Y69VMjGd5nDiguoVIy0C8jyAh61tM2fp2EldtDz9k4MGWptJAgvzzq1bzvm4Vep1zQ0d1j2xnw2h8Bs5tdRk4nDqDu/5xI3PXHa5ikf4lN4CzRDaSXjFqM+1Ao9l3fFZlAHMycPfCxGa9G0uInxECRDisiF7xmFcm7eFYp80xL85iJRBvrnzEekY0OoVW0m+il941v//4esB3DK7K2TQBGeUwRaf5OYfSUSGuhljrN6eo1lvN/VWg8HJl9RraeO9R0xpP52m2c/O4SNG7pTx4nYizf+7SLG7Nce6PuFT54owjXbCxqGHj2sMGMsDO6K7g5yL9VzUFUhinjzcLjeFe6H71wMnsNDkh1PYuDVTCe3etzXolU34FDekQaiEjSF0wR8gWNHIl1A2hVO8j6iqz3NCJ1VDN5hfjaVMSXDZSoqJl1Rde1xBByb0TCR2jC0YeWtUjxYtDvLObD4q9WpaWdZtJnvAfiyYuwpeIIro/htE/kU5j2cH9Aj1kmdmx8OOg6eCwJuIzV9+WW/NcEszZ71eZki5HD/kVHHDMb00INLFVgX+Iz8NNNOk1vimrcxCq/wPxq+v/rEumTYATRVcvPQSj8pR7A9mr9X6sW/+4wsH84VjkcoOtQgy8fJqU9Fo2ufwLVFeQPo7aNERId7tkWzY78N3mssPFfvguBb7kvA2yJ5NQBs+qT/qq5U+sy7HVBMWfzQtubzY/MXmaYZllVtnyAr+ImSRrqSTvlenrDLgO9mIKexKDQ1/GIyOGM2s68I1FHuYGA2aLdE7XqOCOAsDyk0eFg+E30X66dJi1bCFKaeSpD0nLbVLWpjsl12cIkoesGTYD2K34tZ8lpM4u7rAPC9ra9R93m4mnNIZKec8G/ZcTK/yJKts8zFr7scOGdE/vPHhTUPtAJ5+P67E4WdbId9GN3rPdQRFAAyee0tOAkKkM7T7Id+SY4yJKqvBZdQH8fUIeHOwjCjstxin48C0tlIjgmOuRdtZBTeuICZ85fKxBjOUYBoJE63AAAAAAA== 1x, /html-css-fson-89-sidlicki/assets/image1@2x-ff4e38dc.webp 2x"
+            type="image/webp" media="(min-width: 768px)" />
+          <source srcset="/html-css-fson-89-sidlicki/assets/image1-de4d37ed.png 1x, /html-css-fson-89-sidlicki/assets/image1@2x-61df17ac.png 2x" media="(min-width: 768px)" />
+          <source srcset="data:image/webp;base64,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 1x, /html-css-fson-89-sidlicki/assets/image1@2x-b63aa9a6.webp 2x"
+            type="image/webp" media="(max-width: 767px)" />
+          <source srcset="/html-css-fson-89-sidlicki/assets/image1-68159f00.png 1x, /html-css-fson-89-sidlicki/assets/image1@2x-c369de64.png 2x" media="(max-width: 767px)" />
+          <img src="/html-css-fson-89-sidlicki/assets/image1-68159f00.png" alt="kinder" />
+        </picture>
+        <button class="hero-modal-buy-item-button">100 g</button>
+      </div>
+    </li>
+
+    <li class="hero-modal-buy-item list">
+      <div class="hero-modal-buy-item-card">
+        <picture>
+          <source
+            srcset="data:image/webp;base64,UklGRmILAABXRUJQVlA4WAoAAAAQAAAAeAAAagAAQUxQSLgDAAABoAQAkCFJiqqu1sysbdu2bdu2bdu2bdu2bXt37O7O2N0bRsT5ExETAP9wxiw+9uTDm9OtkdPcY8cwBNOSjP6g8I8LImNvePaLz/dX+wZl0YXQPeLHt4WnJ04/9SuGGzjWFqF40xSG7XN6TO9e5dy4abnWPPn8+cbkVACalqbrwR9BGFF1ulv+VInjx3RzN+tZT2IkXZeqaazSbQ7BMIP27Pn6zYFR7AwJDfByYuTVrvx8Cu8MRd5qb7saE25eWtLATMuUe4MfCqgQEV3ZadUKRjl/WGnNQkEPA+2hkowj1kgJMpNYgWBBdhNL7inIBxst6wtBsD4tuCCIXxxiqwQ5BMSHCLKWWj0xvtyqSi2PEsK3gM1EzTgsguNJG2CYZpwvu48rStmBZ+kf3O4Uslt0HpC+ZO70yROlylehSdcRhzigK8jP88ubp0cn9Rg6pk8sUhE1lvqziLgqyMM8ViH3r60NBikLNj7qRPY/kgN903GFIuZnYL6MMjZkAH2EGMShjBB9OQyWQRVnoB+W4VUcBqm9ZRgEDMejhJ6jDAamCwJ4t4kLHN3uCjAReBrnuQXdGuDGBDawcj2dXMoMbCvvXnubi+tYLQ9gXsqXya0VC6eOHl5bZ2Q+g6ydo3U2aU8pXuiYHovLZORfl8toAe7H52HsEgAb87DflWA+D8sVCYbwMB2XoCEP2C6AKshkrgABaZm0E+CJB5M0it904PqIXWA6Nsu4hXbQ2NRXvLzra8A2xXdezy3AV7/MyzMFn2zbvvEKrOVm1ng08UT2Dv+vL69Nj01Na+WJUjahVjYApQzJR0w7jWLes5PS0o9zyrEQSKf5joLWojUaBfVNTsr9tiQXLaQqOAVRHYF0exT0mUFrmiTTgPYpQRxFiPVXcuwwiCVZKsa5OEA9sZcMwRcyA/mYLwRQd6eVNgN900IXs6+bWyYFplrSM7xCbsyum97gARD7A6swvx3qVyQeh6pOfojoeHdwUHJq2jEUcyW1BA45TpiINUQ5ZwPxSoI0pmZ7LYYrJzWYJca7eOTcjkpxSCMHKT8IMQ4YdhWiNIfeMoS4cxggwxXg2FqGaSwKOSRQtVkYtZ+4+H1OzQJAS9PxSAgf5Xtv56QUwDhe22Ne1Jzf7+2b0bVCKguwNyVtsOy1oqACXp5dMbhx6UyJ3HWQM0HV5S9V1Dl8313dOrZ5oeSxDRA5XuUxdwIjoYK+PDg8p1+TUhliaiC8Jd/4x2GFvj+5YkCd3AkN+PPUcnYc3Lth/tg6/E8RVlA4IIQHAADwIwCdASp5AGsAPpFAmkmlo6KhJBbdiLASCUAapwFFrfBjVX0vMKwUfRht7OfA02Teff87gLvbv/ofDXy3B7jT7vbm9OSWDN6L41ouuaH1THtrUMx/lOpgHXVeCAy8RA5d/Fy+X+J6lt9s57ixmB8TNb2zyEQmzJcxTddOhr2YNWd1GbSAao7e4Sl2xgQjt5OtPlV56fhIgR8+ybTZbothvHMM6a18p22B0J2dH6zenCiUGB5XpUNJZKn5HsZa/vF1O+V7WSECE5ReGdHZbu5FqeZ+LTtXeHN0qnz0d3jERBoy0A4xWqVVfBgsEATLOUbTQ6JZKePQtcSdvYNiGGeWoK1qjTUSd70g/5eleBEMw/VROXgICmYk7+NxRenTaC184DP61nP3AAD+/TbjaFxRnndhjUzuse6kz2Z+2gGXnBU2Q564eUq+Tj8nmylFyTegZt1Yl5FyJS4Qv1xavoL4o47WggvQuD22UdTnnIM9HKomQiG3yOEy+g0wcOoo3ORehHQqPLeX0r//8IN3DtHMurYlc1bw7AKC69UjmfFsXlaI5XffUMR/qaHfhBThFSNK8uzlP8k+NTjNcdb+C3iFBsdc0h0CGmlVwOEASWggzht6CnxjyJYVAUvAiaNI7zXHHkUtXsibPB1QEcmeshQct2zJBzz+GC/kCyaaToSH24gk64bRtwJyDNTixp6y2/5iljcDGX+mgZ84s6xLZMA50if+H1/2vt2p7IiTuvYkmywEJM8FFZ18H/9AGQ4nBMIMaFEI+1NPHfUNCHSeSxzfWRuD79FscBnHbrrbPIlYkS8zeBDvEQFmQ+WUnJd5VjxJw2QJYV2Q5jSZQ5Xl3voyBPsmQCK9NdpE7nAsyjarKmtBhoNOxSz/OuHmqhXoZq9UTtEwwhQM46IvyuSrJCQc5Pkb2Sbq3KIzfqSRiQO/zjg28+k/iffNcHCP8l2HHUcO3DFcZvNBiBiP+K5PeTFek9Erq4pyAIiqu0dn7NvYxwbilwR2FJ1XYO321TNbMvfLJKIaGzBSdwuFiWEG2m50NV98L3PDlFWPy0wMG5gROPZZVFXXQGf88Yz/bp1UcDxzgBeqe3ZDkxLhdxkU11vEKvqsLtN5fBF2YIGYwojDEkgh3SGtqIDNwZv7W7OfF+DBS7NHZH5/mmYSIhkp8VN/c1jLvHN9BDTg2H5s0DMFqo55/JgZGeJalkuM/veg4Rw1gfSizXsfITbJkv6W+Xk2SNHC8xySiy8ifvzjf/LFD1OYDTRbPyhW2Pb42SesnwS2+bdStOA4jfvef3XTfu1Pat4GFAncDHRuC1Teqo5uXa5Ifa9LMZYvUA6h3XVMsDj2ZDSL++EE1Yc4/BYuB3hGKu/fBJrImCMQa1rIKAj/KzN+WfTEwIpUC0uNUosh4XS9HVdw3udWDqfRw/FtoH3PTY1ruxeIMJlOA2twdNRb/6DVtFFfNKsO4pQgbQOJ2c3p9F9saYRWJVTKF/WPct28oaQzLz5+nTEqNVmRVzz7ySnvyKwhSDA5I7DOc9/7KiXawloYGu6DrQqhw61MXyhicXBd1nXZwP3Ph3B93V8xhgufLqHelzcdmmBsnrp5on/dW1Cuh54Cr4J/c+gW5FnNecDEFMua4+UXTOqKRGLNXziwJvZNMTo20SvkMkdmHmuGwYSrySoFbtRbUZl+JwY0DEPnjSDwHRDCBCDCE17NxdZSCrlYkrFNyjeMRVHa7lVncAzunIZN+2li+KkjY/7RdGrsBnlxm1jhOZodINMVgzgYyZ1q8APSw7lUcN6myUMthVSHw6v9pNCaJXh1Sb6HHyZOP0A4erqHwUEq5s50nZRh9VCQStVZc+m57y/xYTRx8KwYxt/PoDZQC0bYJDVCohUZVu2fToJfUZvKNVIYi4e079iTSfSVqBQOthRdKfHNR6XZduxrtCw8a8PWUpkWuZaXkVxC4d87/uk/3Q9ZyJlpW7Gs8Olb7cSEV6AnieQQoUBjkURfrM1LWozKT3OmTfbCBTuIN0tz4YgL/5ptfkCU1KZRcbwbDWAKM5JtIWjW31ZAAm81sST0E3jQCnukPzSSS9DQ8lVsZTSOiUK0pgUd8SoRQlNqXMauE++ay2DarPUXCRuketFZ9/8wN7v8O0y9/DxIZ+ABFB0ZnjWemmU9pR2iFv9wFN4Tuyaoj5lHIEerWnh9X+GxfXc1ur70cI6FxJCCIEOPmK7JqsWXFH5/5uHT+P+fJ3kud1xIhvJ5B7YQ0Hokm2JRkby02x14I3fcJWz+MiNsEArDwq+z4qoPUNkxRzsd28TW/NlGvv+ZpQQewHU/L51ko903TJ7XhwWEO2P2hrY9v2te1EGvo8QmoJq+Vzvf1xtBNloSZK9DV3z7kYyGvaa43O++WMNW7puGGn9X1oi6Ktu0sYdloMEc6bSWnMiyNMQA0HathtytO+HtYQBzE0q7zuas/+KexX6LjctjOeybWt9fMsxYOZ/uEC0UECE6/ww+XGgZFb3rkqAF11xPVIBcPOpdMkBCIbGYCwberXxxkDNWYMlEeZ6/7Vz2cOgRYuREAicyk8AAAAAA 1x, /html-css-fson-89-sidlicki/assets/image2@2x-981c8102.webp 2x"
+            type="image/webp" media="(min-width: 768px)" />
+          <source srcset="/html-css-fson-89-sidlicki/assets/image2-bac61d82.png 1x, /html-css-fson-89-sidlicki/assets/image2@2x-b16655dd.png 2x" media="(min-width: 768px)" />
+          <source srcset="data:image/webp;base64,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 1x, data:image/webp;base64,UklGRrgNAABXRUJQVlA4WAoAAAAQAAAApwAAiQAAQUxQSKgEAAABoIZt2/FGer4kndQd27Zt27Zte6ZY27ZtY2zbntpO0ibf+66ra7w/ImIC5H8XjdJN2jYvcvNTccGuBJcn61TlXPGr2axOScvNQeDai0r/4zb/nPlvPJGYmhy++5W+hW50RpnQKP0fQ71yUmu30v96KbRDw+aVLTcKo3inWSvntQv4F1vVKWGH9H82lwcZ/8WocUX/Z+XRaU9XvTEEzI1UWmv3ibXVClVr3Xzp7jSdY/PSx+vnTBk3on+fvp1azY3TuRgZWobPNuaER/9r4uGUbKfOQ6VM052ldK6q0yO84Fr8mq4h3d93r1Bx+XcfBrezAdkav5qtSU2P1lqbITy20DiNfD/PYFMjZ/fieUQzR5XmWQW11+AZArVLeJsqpuM2ngqpTOEleYpcZ0rvymM/wqQfM3AsP0F9b8eR15iy+gnvBqaokkDTTKTrRYF6O5D2GkB1E4EOvzNEgAOv8CTYhfkVnJQlAl1pUwZJ9p7gFoLt3dHJcaFrkKDPdGOoDYX97FYwS6MOTWpVLF2qerOeI2evf+lUAdIqKzM1KSb84v73Fk1euHJtWZoclnsnuyDl+Cky21dKYyrHPDD7fUpznmlsoQqsMvB3twZNaSjQfommhp1AVVnjhlAFxuK8SSWf4GzCCsb5Aes1nGCsizTOHlSl3TTHS1Et07QLDSjrHpqvAwW6UQZKyraZXkI9XZN6lhrCPQ3laCkBH6w4Mn5oLuTNXRTRG+p5C3qJSGUCJG+b4Sf4oxfMek8VMOc3PexyY2wXUcDOf//V+08FrxkWwPeDZnSsNuC8x2RBaMdMg+1xpTHd69n2atDkkmjbSPRLaHtQIoqAVXSjmD3AqmrWsWClFYqnK1igC8VRD8yWhhJfCsyIRbnuDybHUU5Yyb5E+U7Ig1HmoPVzg6QGoVWIAHlG0L1+4dhTlk3CKNSm0gI/lCK9vtBXUxCeJniWCxB6EF29Z2IoZrIZbeI0ZsJX7z8TunhsKxtT73CNm7UQqXG0Bt5B5HNCEz9HNFMj9wcK2oSU5o/jM/hrE2mr4I4wNXMIjuUbzZzVA6fYVajzlXAGK6ivrDifaGY1UXC3QR238RyDelZwS7uh+vCUg7pajEeOML1sAVpwkegjHwG2TsrmCa8myB3TaZw/NBXmGgko5p75ZYXavkNhxGyaW03IK44/CuH5bXrDADSRdgkMWntitr0wvoYVTJ6h+Ls7bsd9nfypimSQ/KNz2/IKSLM08UEi61Ykhw9QlVSkNDtQRw/SQQFulYX0KpHPFaRZRPICkaMzUgcP0OVKSMbjQL/akaTIAZ6nBbpsPM5EKtmC05DKepgmw5vKdoZmu2Dvo3mU60eaEVzLTZbsOlzeT0ahnPfjEqPkpN8zKRz7Wgu7V93lu1XBUumnPgye0K56EeE3mj10LL0AKFf8pV0fBo9uECA3Up+er4e7849yJV7d9tLCPnUDDLkRl+r/7jWVdxnh+z4NHtm8vK8hN3Jb3SlfpOSaSjv144srhrep4m+Rm8JCVSdvyc6JSj/6/vrRbSsVs1vk5tKoE3YgQ2ltZsZf2P5O8PB6vnLz6tVsxZOPzO1dzd+Qu/kBVlA4IOoIAACQLgCdASqoAIoAPpFAm0klo6KhJ9YMCLASCWMA1PyrlWSruW/JSQxeQ/a2+HPE6cXvUt+idwP+g8NfMGJWN5vXl96bBpDeRftUb79wfbtbEq/Fpy3nbKmd2WJ1Zyof2N74SqzrkHf542knrqkLkAiPx4OMwMYvx/A6skO3yiNO0MmXRWgeOhSNJvZHT7kyF1zaBSaYoRGOoR78dBD2rl5UryOe3CndjVuNpr2DHCswag7qd0ePJ5XybuZuomklwG196v8yAwHR3Q/jpE4eEp+ZT8+fts6JmfKLUEkxmDXv+4ABQquTOazBHIrImo+6mlwv5Px/nCqGFOra5+6axeis/ArvQEnH5K1ZkPaqETljlwvYZDPY24h9GrhB3f5AWEXX6QPjYiqHPMG1csFimg32frXroj/KPSkahpSI6t8wc1gRy5Uvp//jYFOcK8OeiRwBG7Vjscj/6/+G8XQIUIidbYpfGobjlhcBuLhL9vJXQDverEunpqHxFLDIUAAA/vuc3H+NIdanMD9cGMAYr5UBjzMCOPCfnA3m0EHmM+QbVyCukkn0PH2wy8wJ3lnGY7SE3xPWxk/Y9y+vJgiS2miBK9i1MwncQN1wGS0pfv+aCrA/rHsyHKg6EZdeklS4dGXm9H2xntjcp1VZGybxVF3dmMfGPK+umDQ+CBUbjTy889IObLNiflok4hHTGTSup1pNsLekmj5kC9XBPP9NBYyUTIoBF+dkjUcBhO9PhgXLIPUj6C13mwTFfP9C6Vxd/qWPp492AeoYOiVwP/Vz0yqEjExxCYmdzmU0wQUx4I1cXE/l5jbXIZ9iEnKa/jYvmSuaRFkYnY9lqNJ+f4+pgobAav4DiUb8Ay7kHezD/CKatC028MD8E+8qOA3tT7TvVDV6Xd/tCG+4AQRi2Lhrb9D1uzgF7pkiU/TMyKm5Rde/KQH+A/2FC69Bi3jAqLHnpyXdkKbU92y7HVaDZamoZotWA2ksT/jiQGghLQmnvLVJduUdfSndP0peb35tUY0AeFgJH6no9cvLzR0xkUqQMc3DjdnOOTDxfTkwNshBew3UiID6nq6Cn6Wox41PB4HG8BBiIA3H3EtlRXpkGKpuUuW82DZTWAG9PbHa3afFiQgBjjf/YSnfE4uoNmtgMyvSng7JAVPk9mran4jFphbGSMby2EMvvgnckJVXseqvY4c+f+hbPH7R8FJ6utmZPyxTMzeNGkZ8JWqFm4OdtihX/G7gLHt2lFl/V9J+t6Hgt3AMLD7GoCvQOox6oKDPNqCzXQs5LuE3afPFrBG8CM2K75V0JWEEbYiOSUX2lxX34wR4m1Sx9FK4uV1ButHib6/gNw5X4pVZBnvBikhgIz0npF+ph6lUt+WB3GG1Ke/tvsvD7j1FvATTKPHWZta2sZ+3LkFYG1g0xWYrdIHR5UbwBAOS2OOFnHkV1oHBxhx8c/BFSL28ayyy7tLT/ybHfafksFQ8CCmJuvHEkhvIiDpli0IUv2cYE16x53cmuupfoqMtsD0lZlQeXJvfxoV/zd4DteSXW7FnxkBHkT5F0aK6WCZHR7xPrYXXE/p5sJJP+TkFVndhFNMi2zbe3xYbL3ZPf/QCyLPD8Z6IoyTZ60SM8orV3mFZEyD9fq923FikEycc7iqb4m+fA8mBcUKpUyQp6FQTbpAqgfC6RRAR3xfgs3Wnb7G2A51m9IGgZNIM11XTjyPhl92Hy+Ni8YfhAsh4ZnuIe/fq5+kZo/lAE1Rusy45fs/dlNgMyLSwbiULw7PSwthHF5FNd7vyV41sW8HuGPUDqfSfHBJ7VUmAvtcETod6SfNECJacVW/OF1A77kgJwxFjeQEP4TJPW9lKbU47Sub0tmHkkFmZW4BYaQNjYHZxdWEOC/S8arCGf4svhMfx7s8BsUKCoikWe35kTo5cYEhEJ8HCj56f/faC+U/aUxRKjyxpmeXCPcIwvTrTVahS8VXfviTKp3ikXDlavgLTss49IAtW/vnk1EC7N+mjW2Ye3JEiJwkWHhn7quB6lPk8WV5OdDAoWDWUhl344eYlvzd6PzT1J1/KcystEYHmJJNoE0JsInZIz1J0PzCi2nObmJHO6vBvTX1g0GW1yYQvZ/3zgMYOUaCObeZjlUkWj1xE3L5Eb70n3hW3h9LUj7KgxnN0pMoUOVYh6xWnoWu/mpoGKTWr+Zt180zd7bjJQ/4qV9f8bbpGCytM5qx0q5NN4KU/e2LYlw5geGuGjv9YPLju6ocgZIYkL9U+aIBCpwuhVjNiCuhVLba3n24dUFE0YlBSMIq6yY9rryHt+XYRu/RL4qeyRvWn+4bcUssGkubu2l+ygBpUjXc3XjygzQN7xJDgJuUA7DQmh8hlSp/wgef9kNrd5YZyA8OI5pfOkYkq9XD7pXDMh72eOBJ9xTAhSlUhUmCgTGwQYBlQx4iyadp6UISUx3ZNpupuYw3G5UVFSH2SJcV4flQbKEsLGuhJ9t+ciVJ+oLveQ3nC35vYQu+hAzCWrLFW2mFVD1UXd46ZX5iEIxY7kpTOEiNb96T+Wjy1EdDhed9jts8Iql2wxehWbn2cPTeE+lcsdUwJN15qTFv2Bu6xwoULnwpLhroMIeuYQkpryELpasOIJT/VyvWo2U2Kd35mkljQrkMHFzvZI313YKzYhymgRKXUAWu7cDn03IR2AK9P7JxPQFhXERdC2cNYbwwkusvuNMDPS6s5x45vaFw9EfHD7VwRQSf1Y29hFvU8ZSgqyLOqvaRWKG0jkOFudR76K4lG7DWPOUMSMFDVkZlt7tzGzXFtRpjdEG85G+t3TZ1xtDvp8MJAjWwUjFRkXkqhWrqAuS2uJgX2+VR7v4JL9cZzpvMleSMvSEd6nP6FnnW1MGZ47HkXVuAVKABDoYFr/ZPBNr/9+oNo9ozWC5CUD2u47UAybw4dcsX5+S+p2eRo5b6K2iKsbw1kndPubf58SqpobAT93tGlT9F2j5uf2O7DJuaK/gMdeU00OqriEkNHgAXWzZxyf4DDN+4277mSXfDVe+XzCDVZ3+7s79lQDqAAAA== 2x"
+            type="image/webp" media="(max-width: 767px)" />
+          <source srcset="/html-css-fson-89-sidlicki/assets/image2-bcef583c.png 1x, /html-css-fson-89-sidlicki/assets/image2@2x-07fc2deb.png 2x" media="(max-width: 767px)" />
+          <img src="/html-css-fson-89-sidlicki/assets/image2-bcef583c.png" alt="praline" />
+        </picture>
+
+        <button class="hero-modal-buy-item-button">200 g</button>
+      </div>
+    </li>
+
+    <li class="hero-modal-buy-item list">
+      <div class="hero-modal-buy-item-card">
+        <picture>
+          <source
+            srcset="data:image/webp;base64,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 1x, /html-css-fson-89-sidlicki/assets/image3@2x-0aa6b442.webp 2x"
+            type="image/webp" media="(min-width: 768px)" />
+          <source srcset="/html-css-fson-89-sidlicki/assets/image3-396be75b.png 1x, /html-css-fson-89-sidlicki/assets/image3@2x-cca37a59.png 2x" media="(min-width: 768px)" />
+          <source srcset="data:image/webp;base64,UklGRigGAABXRUJQVlA4WAoAAAAQAAAAUwAARAAAQUxQSHUCAAABkAQAjCFJGeNs27Zt27btl23btm1ba9vWGLubY0+nc6+7T0RMAPzvqi/VZOmZrTn/HqpiI5e/8MtGRLxRqOzDy1uXjm1RWqbmo2jRe9v1pEwU6BOCvw37GB/z+PiW+cryFfPIJFSw2uxN35IcSB2BaDN8vl5fAsqmE06+TUdJhxek24UM38mo+iPLrVRXeeAsovzveXjXp4HS4SwwuhQNVDSzQO98NNDFxgKfKGhgQCYLXEUEC7JYODsSyTaxQN9GNKA/zwLjytOA/BILdMtPA2pfFvgoJw0UC2eBe4mgQjgL7EUE9RNYvCxOBM1tHNBUjgiG2zjgtwJE0J8FXtATwRIWuIMKdrDAcVSaEyxsBYlAc5IDbi1LBLrPHPBbASIoHsQBz8iIoGgIB1xGBWUjOeBYKmiZSuNff/ZNkwhRZDDQQGGsBVDqteXI6I8CktKy0J8OhjgJ1hauCuUGlIH2JgFhY2sM6yUBmErQfZV9kxZglg2FvgaJrhIPnYh+vVoYUWjWJqnItov324h3gnC5VEC2UzwDun5GMqDeL1qk3TVHfclArltiifpQJhUVyEfdMYhhMsSK4BghkdIxd4/OaXZcjOBHF9wsrmRfryQR2dKXNhQ9zt2VqyDhVifixHLVll5RSgCKHpnCwq0iGDbtuKICictuCxMe5fY0EB0Wt6U7XjeS2qDkX7KyxfD+GhV3a8P7ocBQqawYiwY3FPNwMuK7Lb2A6bIpXT4aTq43uvTmlQMjLkeWZQIATV+2h0FfMj6ecbcKQHwegCPkwHjSBoAifm0AesYFRKR8frPv8vI2lbVFu1QB1lUAoEBuAFACyOCfRABWUDggjAMAALATAJ0BKlQARQA+kTyXSSWjIiEquA0wsBIJZQDPhahJ/t5HvzrsOlls92ImXqk23TUG6Op+NYA57BL4DKreM7vPA+ZCVNRyCJrGoSDT1jptXfavNuG5Fwd9iPL+o3+xKYiajz8T3zS8oYxNMoWzZ7M6HB3HY1qN2tb3AhkxjE+zNSXskp1vXJtP4mxK2NxwZqnWdHrbcq9LBKOmGiMFTNaSMTPP4AAA/v71txMpTiGuqRmWxf+01bjZk/2+kwDbbG8WKI6R8UXFLtj5SqnC39i2GqYyo6pK/b4cMOqjakY/WptjxNAM8z9lzpnrmHwAQjMcwcRMOWXid/NDRZbZTusmvxKMooUZAZ9cDZE/pTbYBGqORJ71VIr4ABFCB76h0CmRxI//ExoOXnL5i5kuoOVdtT5Yx5dIwwlE6E03qMM6KgBS6QcEoan9V4zdwVUfY1jqacWi/jixvq2pujDOBuMXMPv79V2vch2NJDPOmbAsTDuXllnDSQZijy9/4fjIZl3HklOLrifaekVEIoNoOHY55wzJCO3DZn1uC7d+B2GkYZL+1C/WrZFIw5ch5xuoEoTD1gieZ+N11pUjtXLu75Ujz5fx3ZEBtyL/jyRrm+ChkRY5VsT6upKQ2JxOTwxKJrTXObJzcKmCNkajqrjqLU04UO3Yv+bL7kMHtcGR05kZ9oEi6HzJVrxnU1P6QV8QAvMYgtTDf1eFL61qj1IIgF/NBIi8osJ3oVvU8Ud9iwx6zKGgaEgdVEW816KNBsL8bxt3FphvLxG7dCvxpkR1qIjPpmWzC5lx93DeZz3sxkafRARCpu5ib32IUtBQWK+J8lF/2QwmZRN+8x3nUDLcIcJUAuGsuOAg0N99l0iCOThUYPr+rCsIiCdV3spED2Or9i8kerS4FmfoHZRMIu+u9fuigLq+gdsN7u6ipbM+hxjurNxFwchP1EiOAg5gxTjBK8Kebv5NZwC569SmJ96g+M9WPiEf++tv2BoW1sNPgetsiL6v0vQ0d1AEZPifxrlPY/BE+sEmqYtYSciD1yNTthfJ3Hx9yVWhR8iCulp0DTjVnxrLpTBAdDqHeu/i8V3rQepQF5HwLRzRxXZgxRj4PaS6BByBXE+OqteOfpZX6d92/ejbQcd3EHDGXLhGQk4iapnod/y3uuqKvbKiKEnCsjYbhst+YQ4OlAIyqELuaFaMvuqkWS4FuAAAAAAA 1x, data:image/webp;base64,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 2x"
+            type="image/webp" media="(max-width: 767px)" />
+          <source srcset="/html-css-fson-89-sidlicki/assets/image3-c4574fe7.png 1x, /html-css-fson-89-sidlicki/assets/image3@2x-596760f5.png 2x" media="(max-width: 767px)" />
+          <img src="/html-css-fson-89-sidlicki/assets/image3-c4574fe7.png" alt="dark" />
+        </picture>
+
+        <button class="hero-modal-buy-item-button">300 g</button>
+      </div>
+    </li>
+  </ul>
+
+  <form class="hero-modal-buy-form">
+    <div class="hero-modal-buy-form-personal-label">
+      <label class="hero-modal-buy-label" for="user-name">Personal information</label>
+
+      <div class="hero-modal-buy-form-personal">
+        <div class="hero-modal-buy-form-cont add">
+          <input id="user-name" type="text" name="user-name" class="hero-modal-buy-input add-personal" required
+            pattern="^[a-zA-Zа-яА-ЯіІїЇєЄ']+" minlength="3" placeholder="Name" />
+        </div>
+
+        <div class="hero-modal-buy-form-cont">
+          <input id="user-surname" type="text" name="user-surname" class="hero-modal-buy-input add-personal" required
+            pattern="^[a-zA-Zа-яА-ЯіІїЇєЄ']+" minlength="3" placeholder="Surname" />
+        </div>
+      </div>
+    </div>
+
+    <div class="hero-modal-buy-form">
+      <label class="hero-modal-buy-label" for="user-email">Email</label>
+      <div class="hero-modal-buy-form-cont">
+        <input id="user-email" type="email" name="user-email" class="hero-modal-buy-input" required
+          placeholder="Enter your email" />
+      </div>
+    </div>
+
+    <div class="hero-modal-buy-form">
+      <label class="hero-modal-buy-label" for="user-phone-number">Phone number</label>
+      <div class="hero-modal-buy-form-cont add-cont-phone">
+        <input id="user-phone-number" type="tel" name="user-phone-number" class="hero-modal-buy-input add-phone"
+          required pattern="[0-9]+" title="xxx-xxx-xx-xx" placeholder="Phone number" />
+        <svg class="hero-icon-form-phone">
+          <use href="/html-css-fson-89-sidlicki/assets/sprite-840015d5.svg#icon-flag-ukraine"></use>
+        </svg>
+      </div>
+    </div>
+
+    <div class="hero-modal-buy-form">
+      <label class="hero-modal-buy-label" for="user-card">Card number</label>
+      <div class="hero-modal-buy-form-cont">
+        <input id="user-card" type="text" name="user-card" class="hero-modal-buy-input" required pattern="[0-9]+"
+          title="xxxx-xxxx-xxxx-xxxx" placeholder="Enter card" />
+        <svg class="hero-icon-form-card">
+          <use href="/html-css-fson-89-sidlicki/assets/sprite-840015d5.svg#icon-mastercard"></use>
+        </svg>
+      </div>
+    </div>
+
+    <div class="hero-modal-buy-form-textarea">
+      <label class="hero-modal-buy-label" for="user-comment">Comment</label>
+      <textarea id="user-comment" name="user-comment" class="hero-modal-buy-textarea"
+        placeholder="Enter text"></textarea>
+    </div>
+
+    <button type="submit" class="hero-modal-buy-btn">Submit</button>
+  </form>
+</div>
+<div class="overlay js-overlay-modal"></div>
+    <section class="advantages-section" data-aos="fade-up" data-aos-duration="1000">
+
+
+    <div class="container advantages-container">
+        <h2 class="section-title visually-hidden">Advantages</h2>
+        <ul class="advantages-list list">
+            <li class="advantages-item">
+                <div class="advantages-svg-field">
+                    <svg class="advantages-icon">
+                        <use href="/html-css-fson-89-sidlicki/assets/sprite-840015d5.svg#icon-chocolate-bar"></use>
+                    </svg>
+                </div>
+                <div class="advantages-text-field">
+                    <h3 class="advantages-card-title">Unsurpassed taste</h3>
+                    <p class="advantages-card-description">Crafted with the finest quality cocoa beans and a dedication
+                        to
+                        perfection, each bite is a decadent experience that simply cannot be matched. Savor the richness
+                        and
+                        complexity of our Unsurpassed Taste and discover a new level of chocolate bliss.</p>
+                </div>
+
+            </li>
+            <li class="advantages-item">
+                <div class="advantages-svg-field">
+                    <svg class="advantages-icon">
+                        <use href="/html-css-fson-89-sidlicki/assets/sprite-840015d5.svg#icon-coin"></use>
+                    </svg>
+                </div>
+                <div class="advantages-text-field">
+                    <h3 class="advantages-card-title">Affordable price</h3>
+                    <p class="advantages-card-description">Indulge in high-quality chocolate without breaking the bank
+                        with
+                        Simply Chocolate's selection of affordable treats. Enjoy mouth-watering truffles and velvety
+                        chocolate bars without sacrificing taste or quality. Browse our selection and indulge in
+                        affordable
+                        luxury today.</p>
+                </div>
+            </li>
+            <li class="advantages-item">
+                <div class="advantages-svg-field">
+                    <svg class="advantages-icon">
+                        <use href="/html-css-fson-89-sidlicki/assets/sprite-840015d5.svg#icon-spoon"></use>
+                    </svg>
+                </div>
+                <div class="advantages-text-field">
+                    <h3 class="advantages-card-title">Own production</h3>
+                    <p class="advantages-card-description">We take pride in our own production process, ensuring that
+                        every
+                        step is carefully crafted to perfection. From selecting the finest ingredients to handcrafting
+                        each
+                        piece, our attention to detail is evident in every bite.</p>
+                </div>
+
+            </li>
+        </ul>
+    </div>
+</section>
+    <!-- прошу в усіх своїх классах, крім тих що прописані в /reset.css додавати приставку -unique, щоб уникнути дублювання стилів -->
+<section class="unique-section" id="unique" data-aos="fade-up" data-aos-duration="1000">
+  <!-- розмір контейнера вже заданий в /reset.css для всіх пристроїв -->
+  <div class="container unique-container">
+    <!-- починай писати свій код під цією лінією -->
+    <h3 class="section-title unique-section-title">
+      IT ALL ADDS UP TO ONE EXCEPTIONAL&nbsp;<span class="span-orange">TASTE</span> SENSATION
+    </h3>
+    <p class="unique-description">
+      At Simply Chocolate, we believe that the secret to exceptional chocolate is in the details.
+      From the sourcing of the finest ingredients to the careful crafting of each individual piece,
+      every step of our process adds up to one exceptional taste sensation.
+    </p>
+    <ul class="list unique-ingredients-list">
+      <li class="unique-ingredients-item unique-milk-chocolate">
+        <!-- ===========flip -->
+        <div class="unique-flip-card-inner">
+          <div class="unique-ingredients-item-face">
+            <h4>MILK CHOCOLATE</h4>
+          </div>
+          <div id="unique-choco-container" class="unique-ingredients-item-back">
+            <div id="unique-benefits-choco-container" class="unique-prevent-padding-overflow">
+              <h4 class="unique-item-back-title">Milk chocolate</h4>
+              <button id="unique-back-item-choco-hide" class="unique-back-item-name" onclick="this.style='background-color: #fd9222;';
+                                    document.getElementById('unique-benefits-choco-container').style='overflow: hidden;';
+                                    document.getElementById('unique-back-item-choco-show').style='background-color: white; border: 1px solid #fd9222;';
+                                    document.getElementById('unique-choco-container').style='height: 100%;'
+                            ">
+                chocolate
+              </button>
+              <button id="unique-back-item-choco-show" type="button" class="unique-back-item-benefits" onclick="document.getElementById('unique-benefits-choco-container').style='overflow: visible;'; 
+                                    this.style='background-color: #fd9222;';
+                                    document.getElementById('unique-choco-container').style='height: auto;'
+                                    document.getElementById('unique-back-item-choco-hide').style='background-color: white; border: 1px solid #fd9222;'
+                                    ">
+                the benefits
+              </button>
+              <p class="unique-back-item-description">
+                Milk chocolate is a solid chocolate confectionery containing cocoa, sugar and milk.
+                It is the most consumed type of chocolate. Chocolate was originally sold and
+                consumed as a beverage in pre-Columbian times. Although four-fifths of all milk
+                chocolate is sold in the United States and Europe.
+              </p>
+            </div>
+          </div>
+        </div>
+        <!-- ===========flip -->
+      </li>
+      <li class="unique-ingredients-item unique-milk">
+        <!-- ===========flip -->
+        <div class="unique-flip-card-inner">
+          <div class="unique-ingredients-item-face">
+            <h4>Milk</h4>
+          </div>
+          <div id="unique-milk-container" class="unique-ingredients-item-back">
+            <div id="unique-benefits-milk-container" class="unique-prevent-padding-overflow">
+              <h4 class="unique-item-back-title">Milk</h4>
+              <button id="unique-back-item-milk-hide" class="unique-back-item-name" onclick="this.style='background-color: #fd9222;';
+                                    document.getElementById('unique-benefits-milk-container').style='overflow: hidden;';
+                                    document.getElementById('unique-back-item-milk-show').style='background-color: white; border: 1px solid #fd9222;';
+                                    document.getElementById('unique-milk-container').style='height: 100%;'
+                            ">
+                Milk
+              </button>
+              <button id="unique-back-item-milk-show" type="button" class="unique-back-item-benefits" onclick="document.getElementById('unique-benefits-milk-container').style='overflow: visible;'; 
+                                    this.style='background-color: #fd9222;';
+                                    document.getElementById('unique-milk-container').style='height: auto;'
+                                    document.getElementById('unique-back-item-milk-hide').style='background-color: white; border: 1px solid #fd9222;'
+                                    ">
+                the benefits
+              </button>
+              <p class="unique-back-item-description">
+                Milk is a white liquid food produced by the mammary glands of mammals. It is the
+                primary source of nutrition for young mammals (including breastfed human infants)
+                before they are able to digest solid food.Early-lactation milk, which is called
+                colostrum, contains antibodies that strengthen the immune system.
+              </p>
+            </div>
+          </div>
+        </div>
+        <!-- ===========flip -->
+      </li>
+      <li class="unique-ingredients-item unique-nuts">
+        <!-- ===========flip -->
+        <div class="unique-flip-card-inner">
+          <div class="unique-ingredients-item-face">
+            <h4>NUTS</h4>
+          </div>
+          <div id="unique-nuts-container" class="unique-ingredients-item-back">
+            <div id="unique-benefits-nuts-container" class="unique-prevent-padding-overflow">
+              <h4 class="unique-item-back-title">nuts</h4>
+              <button id="unique-back-item-nuts-hide" class="unique-back-item-name" onclick="this.style='background-color: #fd9222;';
+                                    document.getElementById('unique-benefits-nuts-container').style='overflow: hidden;';
+                                    document.getElementById('unique-back-item-nuts-show').style='background-color: white; border: 1px solid #fd9222;';
+                                    document.getElementById('unique-nuts-container').style='height: 100%;'
+                            ">
+                nuts
+              </button>
+              <button id="unique-back-item-nuts-show" type="button" class="unique-back-item-benefits" onclick="document.getElementById('unique-benefits-nuts-container').style='overflow: visible'; 
+                                this.style='background-color: #fd9222;';
+                                document.getElementById('unique-nuts-container').style='height: auto;'
+                                document.getElementById('unique-back-item-nuts-hide').style='background-color: white; border: 1px solid #fd9222;'
+                                ">
+                the benefits
+              </button>
+              <p class="unique-back-item-description">
+                Almonds, pistachios, and walnuts are some types of nuts that contain healthy
+                nutrients. When eaten as part of a nutrient-dense diet, these 9 nuts may offer
+                benefits such as reducing your risk of heart disease. They’re a good source of
+                fiber, healthy fats, and plant protein. Plus, they’re great on their own.
+              </p>
+            </div>
+          </div>
+        </div>
+        <!-- ===========flip -->
+      </li>
+      <li class="unique-ingredients-item unique-sweet-chocolate">
+        <!-- ===========flip -->
+        <div class="unique-flip-card-inner">
+          <div class="unique-ingredients-item-face">
+            <h4>SEMI - SWEET CHOCOLATE</h4>
+          </div>
+          <div id="unique-sweet-container" class="unique-ingredients-item-back">
+            <div id="unique-benefits-sweet-container" class="unique-prevent-padding-overflow">
+              <h4 class="unique-item-back-title">semi - sweet chocolate</h4>
+              <button id="unique-back-item-sweet-hide" class="unique-back-item-name" onclick="this.style='background-color: #fd9222;';
+                                    document.getElementById('unique-benefits-sweet-container').style='overflow: hidden;';
+                                    document.getElementById('unique-back-item-sweet-show').style='background-color: white; border: 1px solid #fd9222;';
+                                    document.getElementById('unique-sweet-container').style='height: 100%;'
+                            ">
+                sweet chocolate
+              </button>
+              <button id="unique-back-item-sweet-show" type="button" class="unique-back-item-benefits" onclick="document.getElementById('unique-benefits-sweet-container').style='overflow: visible;'; 
+                                this.style='background-color: #fd9222;';
+                                document.getElementById('unique-sweet-container').style='height: auto;'
+                                document.getElementById('unique-back-item-sweet-hide').style='background-color: white; border: 1px solid #fd9222;'
+                                ">
+                the benefits
+              </button>
+              <p class="unique-back-item-description">
+                Semi-sweet chocolate has a cocoa solid content of 35 to 65%. One of the best ways to
+                gain an understanding of this type of chocolate is to compare it to a different type
+                of chocolate. Semisweet is darker than milk chocolate. In a taste comparison, it has
+                a slightly bitter taste whereas milk chocolate is sweeter.
+              </p>
+            </div>
+          </div>
+        </div>
+        <!-- ===========flip -->
+      </li>
+    </ul>
+    <!-- твій код має бути вище цієї лінії -->
+  </div>
+</section>
+    <!-- прошу в усіх своїх классах, крім тих що прописані в /reset.css додавати приставку -made, щоб уникнути дублювання стилів -->
+<section class="made-section" id="made" data-aos="fade-up" data-aos-duration="1000">
+  <div class="container made-section-container">
+    <h2 class="section-title made-section-title">
+      HOW IT&#039;S<span class="span-orange"> MADE?</span>
+    </h2>
+
+    <div class="made-section-two_blocks-wrapper">
+      <div class="made-section-video-wrapper" id="video-wrapper">
+        <picture>
+          <!-- DESKTOP -->
+          <source srcset="/html-css-fson-89-sidlicki/assets/bg-video-b597c461.webp 1x, /html-css-fson-89-sidlicki/assets/bg-video@2x-a6c31b63.webp 2x" type="image/webp"
+            media="(min-width: 1200px)" />
+          <source srcset="/html-css-fson-89-sidlicki/assets/bg-video-ad93f129.png 1x, /html-css-fson-89-sidlicki/assets/bg-video@2x-2c4c82d6.png 2x"
+            media="(min-width: 1200px)" />
+          <!-- TABLET -->
+          <source srcset="/html-css-fson-89-sidlicki/assets/bg-video-fe1fabac.webp 1x, /html-css-fson-89-sidlicki/assets/bg-video@2x-834bc6b5.webp 2x" type="image/webp"
+            media="(min-width: 768px)" />
+          <source srcset="/html-css-fson-89-sidlicki/assets/bg-video-311aa0f4.png 1x, /html-css-fson-89-sidlicki/assets/bg-video@2x-c29c0635.png 2x"
+            media="(min-width: 768px)" />
+          <!-- MOBILE -->
+          <source srcset="/html-css-fson-89-sidlicki/assets/bg-video-049d0308.webp 1x, /html-css-fson-89-sidlicki/assets/bg-video@2x-920a5dac.webp 2x" type="image/webp"
+            media="(min-width: 280px)" />
+          <source srcset="/html-css-fson-89-sidlicki/assets/bg-video-68e7035a.png 1x, /html-css-fson-89-sidlicki/assets/bg-video@2x-50ef29b9.png 2x"
+            media="(min-width: 280px)" />
+          <img class="made-section-img" src="/src/img/made/desktop/bg-video.png" alt="photo" width="335" height="500" />
+        </picture>
+        <!-- video -->
+        <iframe class="video hidden" id="made_video" width="335" height="500"
+          src="https://www.youtube.com/embed/cJHo7i058uY?vq=360p" title="YouTube video player"
+          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+          allowfullscreen></iframe>
+
+
+        <button type="button" id="button-play-video" class="play-btn">
+          <svg class="play-btn-icon" aria-label="button`s icon" width="14" height="15">
+            <use class="icon-play" href="/html-css-fson-89-sidlicki/assets/sprite-840015d5.svg#icon-play"></use>
+          </svg>
+        </button>
+      </div>
+
+      <!-- Text-block -->
+      <div class="made-section-description">
+        <h3 class="made-title-second">
+          Try our chocolates today and discover the perfect balance of flavor
+        </h3>
+
+        <ul class="made-section-list list">
+          <li class="made-section-item">
+            <p class="made-paragraf">
+              Heat the milk in a saucepan without bringing it to a boil. Add sugar and cocoa powder.
+            </p>
+          </li>
+
+          <li class="made-section-item">
+            <p class="made-paragraf">
+              At the same time, prepare a water bath. Melt the butter on it.
+            </p>
+          </li>
+
+          <li class="made-section-item">
+            <p class="made-paragraf">
+              "Mix" the milk mixture and already liquid butter. Mix thoroughly with a silicone
+              spatula so that the mass becomes uniform and silky.
+            </p>
+          </li>
+
+          <li class="made-section-item">
+            <p class="made-paragraf">Heat the mixture over low heat, letting it barely boil.</p>
+          </li>
+
+          <li class="made-section-item">
+            <p class="made-paragraf">
+              Pour the chocolate into special containers (can be replaced with ice molds). Allow to
+              cool and harden.
+            </p>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </div>
+</section>
+    <!-- прошу в усіх своїх классах, крім тих що прописані в /reset.css додавати приставку -products, щоб уникнути дублювання стилів -->
+<section class="products-section" id="products" data-aos="fade-up" data-aos-duration="1000">
+  <!-- розмір контейнера вже заданий в /reset.css для всіх пристроїв -->
+  <div class="container products-container">
+    <!-- починай писати свій код під цією лінією -->
+    <h2 class="products-title section-title">OUR <span class="span-orange">PRODUCTS</span></h2>
+    <div class="swiper">
+      <ul class="products-list swiper-wrapper">
+        <li class="products-item swiper-slide">
+          <picture>
+            <source srcset="/html-css-fson-89-sidlicki/assets/orange-3a690f4a.webp 1x, /html-css-fson-89-sidlicki/assets/orange@2x-917a4a71.webp 2x" type="image/webp" />
+            <source srcset="/html-css-fson-89-sidlicki/assets/orange-01c90634.png 1x, /html-css-fson-89-sidlicki/assets/orange@2x-9243b95b.png 2x" type="image/png" />
+            <img src="/html-css-fson-89-sidlicki/assets/orange-01c90634.png" alt="orange dark chocolate" width="230" height="201" />
+          </picture>
+          <div class="products-chocolate-describe">
+            <h3 class="products-chocolate-name">ORANGE</h3>
+            <p class="products-chocolate-type">Dark chocolate</p>
+            <button type="button" class="button products-chocolate-btn">45 UAH</button>
+          </div>
+        </li>
+        <li class="products-item swiper-slide">
+          <picture>
+            <source srcset="/html-css-fson-89-sidlicki/assets/apple-cranberry-a26ef73e.webp 1x, /html-css-fson-89-sidlicki/assets/apple-cranberry@2x-c45f2367.webp 2x" type="image/webp" />
+            <source srcset="/html-css-fson-89-sidlicki/assets/apple-cranberry-0295eeb1.png 1x, /html-css-fson-89-sidlicki/assets/apple-cranberry@2x-261e2056.png 2x"
+              type="image/png" />
+            <img src="/html-css-fson-89-sidlicki/assets/apple-cranberry-0295eeb1.png" alt="apple cranberry milk chocolate" width="230"
+              height="201" />
+          </picture>
+
+          <div class="products-chocolate-describe">
+            <h3 class="products-chocolate-name">APPLE&CRANBERRY</h3>
+            <p class="products-chocolate-type">Milk chocolate</p>
+            <button type="button" class="button products-chocolate-btn">50 UAH</button>
+          </div>
+        </li>
+        <li class="products-item swiper-slide">
+          <picture>
+            <source srcset="/html-css-fson-89-sidlicki/assets/lime-sea-salt-e7ff099a.webp 1x, /html-css-fson-89-sidlicki/assets/lime-sea-salt@2x-458b26f0.webp 2x"
+              type="image/webp" />
+            <source srcset="/html-css-fson-89-sidlicki/assets/lime-sea-salt-061b828a.png 1x, /html-css-fson-89-sidlicki/assets/lime-sea-salt@2x-e9994170.png 2x"
+              type="image/png" />
+            <img src="/html-css-fson-89-sidlicki/assets/lime-sea-salt-061b828a.png" alt="lime sea salt dark chocolate" width="230" height="201" />
+          </picture>
+          <div class="products-chocolate-describe">
+            <h3 class="products-chocolate-name">LIME&SEA SALT</h3>
+            <p class="products-chocolate-type">Dark chocolate</p>
+            <button type="button" class="button products-chocolate-btn">45 UAH</button>
+          </div>
+        </li>
+        <li class="products-item swiper-slide">
+          <picture>
+            <source srcset="/html-css-fson-89-sidlicki/assets/pineapple-6c32b9ea.webp 1x, /html-css-fson-89-sidlicki/assets/pineapple@2x-7d75a86e.webp 2x" type="image/webp" />
+            <source srcset="/html-css-fson-89-sidlicki/assets/pineapple-6bf05d89.png 1x, /html-css-fson-89-sidlicki/assets/pineapple@2x-a4226af9.png 2x" type="image/png" />
+            <img src="/html-css-fson-89-sidlicki/assets/pineapple-6bf05d89.png" alt="pineapple dark chocolate" width="230" height="201" />
+          </picture>
+          <div class="products-chocolate-describe">
+            <h3 class="products-chocolate-name">PINEAPPLE</h3>
+            <p class="products-chocolate-type">Dark chocolate</p>
+            <button type="button" class="button products-chocolate-btn">66 UAH</button>
+          </div>
+        </li>
+        <li class="products-item swiper-slide">
+          <picture>
+            <source srcset="/html-css-fson-89-sidlicki/assets/classic-5712b4b4.webp 1x, /html-css-fson-89-sidlicki/assets/classic@2x-fe2b3eb6.webp 2x" type="image/webp" />
+            <source srcset="/html-css-fson-89-sidlicki/assets/classic-18338b33.png 1x, /html-css-fson-89-sidlicki/assets/classic@2x-4e3568ee.png 2x" type="image/png" />
+            <img src="/html-css-fson-89-sidlicki/assets/classic-18338b33.png" alt="classic milk chocolate" width="230" height="201" />
+          </picture>
+          <div class="products-chocolate-describe">
+            <h3 class="products-chocolate-name">CLASSIC</h3>
+            <p class="products-chocolate-type">Milk chocolate</p>
+            <button type="button" class="button products-chocolate-btn">45 UAH</button>
+          </div>
+        </li>
+        <li class="products-item swiper-slide">
+          <picture>
+            <source srcset="data:image/webp;base64,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 1x, /html-css-fson-89-sidlicki/assets/honey@2x-357d76f1.webp 2x" type="image/webp" />
+            <source srcset="/html-css-fson-89-sidlicki/assets/honey-b84e77e5.png 1x, /html-css-fson-89-sidlicki/assets/honey@2x-410ee375.png 2x" type="image/png" />
+            <img src="/html-css-fson-89-sidlicki/assets/honey-b84e77e5.png" alt="honey milk chocolate" width="230" height="201" />
+          </picture>
+          <div class="products-chocolate-describe">
+            <h3 class="products-chocolate-name">HONEY</h3>
+            <p class="products-chocolate-type">Milk chocolate</p>
+            <button type="button" class="button products-chocolate-btn">50 UAH</button>
+          </div>
+        </li>
+        <li class="products-item swiper-slide">
+          <picture>
+            <source srcset="/html-css-fson-89-sidlicki/assets/roasted-fruits-60a93bc9.webp 1x, /html-css-fson-89-sidlicki/assets/roasted-fruits@2x-f2256cc9.webp 2x"
+              type="image/webp" />
+            <source srcset="/html-css-fson-89-sidlicki/assets/roasted-fruits-266ec0f1.png 1x, /html-css-fson-89-sidlicki/assets/roasted-fruits@2x-b2e26e76.png 2x"
+              type="image/png" />
+            <img src="/html-css-fson-89-sidlicki/assets/roasted-fruits-266ec0f1.png" alt="roasted fruits dark chocolate" width="230" height="201" />
+          </picture>
+          <div class="products-chocolate-describe">
+            <h3 class="products-chocolate-name">ROASTED FRUITS</h3>
+            <p class="products-chocolate-type">Dark chocolate</p>
+            <button type="button" class="button products-chocolate-btn">66 UAH</button>
+          </div>
+        </li>
+        <li class="products-item swiper-slide">
+          <picture>
+            <source srcset="/html-css-fson-89-sidlicki/assets/classic-white-62430498.webp 1x, /html-css-fson-89-sidlicki/assets/classic-white@2x-bf3d887b.webp 2x"
+              type="image/webp" />
+            <source srcset="/html-css-fson-89-sidlicki/assets/classic-white-85216ec6.png 1x, /html-css-fson-89-sidlicki/assets/classic-white@2x-1585233f.png 2x"
+              type="image/png" />
+            <img src="/html-css-fson-89-sidlicki/assets/classic-white-85216ec6.png" alt="classic white chocolate" width="230" height="201" />
+          </picture>
+          <div class="products-chocolate-describe">
+            <h3 class="products-chocolate-name">CLASSIC</h3>
+            <p class="products-chocolate-type">White chocolate</p>
+            <button type="button" class="button products-chocolate-btn">54 UAH</button>
+          </div>
+        </li>
+      </ul>
+      <div class="swiper-pagination"></div>
+    </div>
+    <!-- твій код має бути вище цієї лінії -->
+  </div>
+</section>
+    <!-- прошу в усіх своїх классах, крім тих що прописані в /reset.css додавати приставку -sellers, щоб уникнути дублювання стилів -->
+<section class="sellers-section" id="sellers" data-aos="fade-up" data-aos-duration="1000">
+  <!-- розмір контейнера вже заданий в /reset.css для всіх пристроїв -->
+  <div class="container">
+    <!-- починай писати свій код під цією лінією -->
+    <h2 class="sellers-name">TOP <span class="sellers-name-one">SELLERS</span></h2>
+    <ul class="sellers-list list">
+      <li class="sellers-list-item-one">
+        <picture class="sellers-img">
+          <!-- DESKTOP -->
+          <source srcset="/html-css-fson-89-sidlicki/assets/img1-f17773a8.webp 1x, /html-css-fson-89-sidlicki/assets/img1@2x-656ca250.webp 2x" type="image/webp"
+            media="(min-width: 1200px)" />
+          <source srcset="/html-css-fson-89-sidlicki/assets/img1-51b85578.png 1x, /html-css-fson-89-sidlicki/assets/img1@2x-592f2fb3.png 2x" type="image/png"
+            media="(min-width: 1200px)" />
+          <!-- TABLET -->
+          <source srcset="/html-css-fson-89-sidlicki/assets/img1-612404d7.webp 1x, /html-css-fson-89-sidlicki/assets/img1@2x-53c933d4.webp 2x" type="image/webp"
+            media="(min-width: 768px)" />
+          <source srcset="/html-css-fson-89-sidlicki/assets/img1-461145ed.png 1x, /html-css-fson-89-sidlicki/assets/img1@2x-639e5264.png 2x" type="image/png"
+            media="(min-width: 768px)" />
+          <!-- MOBILE -->
+          <source srcset="/html-css-fson-89-sidlicki/assets/img1-e39d53f9.webp 1x, /html-css-fson-89-sidlicki/assets/img1@2x-ef074a64.webp 2x" type="image/webp"
+            media="(min-width: 280px)" />
+          <source srcset="/html-css-fson-89-sidlicki/assets/img1-cfa07dbc.png 1x, /html-css-fson-89-sidlicki/assets/img1@2x-7bd29185.png 2x" type="image/png"
+            media="(min-width: 280px)" />
+          <img class="sellers-img" src="/html-css-fson-89-sidlicki/assets/img1-51b85578.png" alt="img1" />
+        </picture>
+      </li>
+      <li class="sellers-list-item-two">
+        <p class="info-sellers-sections">
+          Crazy enough chocolate originates from a bean just like the coffee bean called Cacao.
+          Cacao has been around for thousands of years and was first discovered by the Native
+          American tribe called the Mayans.
+        </p>
+      </li>
+      <li class="sellers-list-item-tree">
+        <picture class="sellers-img">
+          <!-- DESKTOP -->
+          <source srcset="/html-css-fson-89-sidlicki/assets/img2-e94bc6bf.webp 1x, /html-css-fson-89-sidlicki/assets/img2@2x-44858104.webp 2x" type="image/webp"
+            media="(min-width: 1200px)" />
+          <source srcset="/html-css-fson-89-sidlicki/assets/img2-6b16319a.png 1x, /html-css-fson-89-sidlicki/assets/img2@2x-2d6691d6.png 2x" type="image/png"
+            media="(min-width: 1200px)" />
+          <!-- TABLET -->
+          <source srcset="/html-css-fson-89-sidlicki/assets/img2-797a2fa6.webp 1x, /html-css-fson-89-sidlicki/assets/img2@2x-10acd423.webp 2x" type="image/webp"
+            media="(min-width: 768px)" />
+          <source srcset="/html-css-fson-89-sidlicki/assets/img2-67bce509.png 1x, /html-css-fson-89-sidlicki/assets/img2@2x-38bf05a9.png 2x" type="image/png"
+            media="(min-width: 768px)" />
+          <!-- MOBILE -->
+          <source srcset="/html-css-fson-89-sidlicki/assets/img2-8e4e3e05.webp 1x, /html-css-fson-89-sidlicki/assets/img2@2x-db7b9a4d.webp 2x" type="image/webp"
+            media="(min-width: 280px)" />
+          <source srcset="/html-css-fson-89-sidlicki/assets/img2-a75eaddd.png 1x, /html-css-fson-89-sidlicki/assets/img2@2x-9e3aa1ec.png 2x" type="image/png"
+            media="(min-width: 280px)" />
+          <img class="sellers-img" src="/html-css-fson-89-sidlicki/assets/img2-6b16319a.png" alt="img2" />
+        </picture>
+      </li>
+      <li class="sellers-list-item-four">
+        <picture class="sellers-img">
+          <!-- DESKTOP -->
+          <source srcset="/html-css-fson-89-sidlicki/assets/img3-74822cfc.webp 1x, /html-css-fson-89-sidlicki/assets/img3@2x-77cd4ea4.webp 2x" type="image/webp"
+            media="(min-width: 1200px)" />
+          <source srcset="/html-css-fson-89-sidlicki/assets/img3-0478a2f6.png 1x, /html-css-fson-89-sidlicki/assets/img3@2x-e78f92a2.png 2x" type="image/png"
+            media="(min-width: 1200px)" />
+          <!-- TABLET -->
+          <!-- <source srcset="/img/sellers/tablet/img3.webp 1x, /img/sellers/tablet/img3@2x.webp 2x" type="image/webp"
+            media="(min-width: 768px)" />
+          <source srcset="/img/sellers/tablet/img3.png 1x, /img/sellers/tablet/img3@2x.png 2x" type="image/png"
+            media="(min-width: 768px)" /> -->
+          <!-- MOBILE -->
+          <!-- <source
+            srcset="/img/sellers/mobile/img3.webp 1x, /img/sellers/mobile/img3@2x.webp 2x"
+            type="image/webp"
+            media="(min-width: 280px)"
+          />
+          <source
+            srcset="/img/sellers/mobile/img3.png 1x, /img/sellers/mobile/img3@2x.png 2x"
+            type="image/png"
+            media="(min-width: 280px)"
+          /> -->
+          <img class="sellers-img" src="/html-css-fson-89-sidlicki/assets/img3-74822cfc.webp" alt="img3" />
+        </picture>
+      </li>
+      <li class="sellers-list-item-five">
+        <button class="open-sellers-btn js-open-modal" data-modal="1" type="button">Buy now</button>
+      </li>
+    </ul>
+
+    <!-- твій код має бути вище цієї лінії -->
+  </div>
+</section>
+    <!-- прошу в усіх своїх классах, крім тих що прописані в /reset.css додавати приставку -reviews, щоб уникнути дублювання стилів -->
+<section class="reviews-section" id="reviews" data-aos="fade-up" data-aos-duration="1000">
+  <!-- розмір контейнера вже заданий в /reset.css для всіх пристроїв -->
+  <div class="container">
+    <!-- починай писати свій код під цією лінією -->
+    <h2 class="reviews-name">CHOCOLATE <span class="reviews-name-one">IS LOVED</span></h2>
+    <div class="reviews-main swiper-loved">
+      <ul class="reviews-list list swiper-wrapper">
+        <li class="reviews-team swiper-slide">
+          <div class="reviews-img-name">
+            <picture>
+              <source srcset="data:image/webp;base64,UklGRrAFAABXRUJQVlA4WAoAAAAQAAAATwAATwAAQUxQSH0BAAABkFZtb91IHwRBEJRAMAQzmDCoGTQMXAaBYAiG8EEQBM3s9uLY2svPiJgAXC1pr410d7featkEC0u60weyJlljO83H1zSd3MwvZtaZ5GY+IW/zZPqkzHNo84lPneDLfGrLV8ndp79fo90X7HqB0pekDlP6otRBSl+WOkTpC1NHdF+6y2d3X/z+Ufbl9w/U1jN97/QA21vZQ8zvMAbKq5sHWV4oozB5lj3M8oxx2JPkgW6/1UhOAOKRmgApFE9AjeUAGAshHqxs0aQSzf6IprZoWo+GFo7/92U0Fk5v0bRHNHWPpqRoNolGwFgIHLFUIMWSALFQBMAZSQWALZL0GywO4mmJIz8Ti4L6DCWKgpfCGIg3cwz5HbQITryttp7pe9jXy/j0WO3Ax9LX6hioXIk6Asp1qBirXIWK0co1qBivfYWuuPSY7xBcnG0u23G9njM1xZSZszBj2sIZrAgm1syrrAhmT48L7NywpKQHR/BIgoVlK7V1+41sdU+CqwEAVlA4IAwEAABQFgCdASpQAFAAPpE6l0gloyIhMLTsALASCWMAx9vZ2uvzZaNlvKaarNgXxn8BM5wnlgNVzh//tbQ70N27BsnHBZBWcGil2K85IN2esjN6JjdaoZT6Xxu63u/d4lOox7AvAdNbbFrUigtzzyhWcLaMZprmbhWmwqjtUmWjE3+mLGbFBGidD+uxlubGOq7Gqmso8h8ZZ1dXRpfyE0UE28eM1HiMkpTHoGJJ4jZX0lolZxeort0/PXyP3CsAAP7/fBM35LMgj274u1pIMPizDq2Z1UiXZAkE2tfzuCm1yTb/PbGBMdd1g3NRnwy14CtHzh/3Rahdr6HVUrOdV4cUGPbgQduB++9U4+L2081dEx6EfSd/hxRtTbiTqG7YQ3hzU6Q+l339jQ9KSGRkKk51T80IocliUUcGehw1Nq7EGHA9wovfNyUZpnKAWOCzH5oBxjvXpBBsOkK67GwrAVoLgBn/qkDIWy2sEV+tcuJnu8zrxrQXiJoKG8Y5N5uXIO910i+yduzsRd7X5mi1sgOCI0NRg03Uy9iALZeDEZmrnn9ym7c0dlcyx2oaOSON/q5VPvH/xMuW44k70J9nqv9hjFVkgcV4YVSe2B84XYfcVIUBiVbBXdYI+gKrBfJbO8R6xlx0hB7j4Uzu1Y8MczikGh0ce8RP83yqHpIAkyXj8f5pNk09+mBwGFwwF/s4FCgBE3zI4Ty9bBxmadbEsuJtICPBe8I5LM9y35wRzbssD43t1SaaJXAmx8HrGCUzGWH1DV+BpkcRcz2HRQQJRFuz5MkKhu2VXSwx4Di0OHelGsCzuOPfogWMZGsnU9Wvn4nDHAI+F9dKBGhEWtiAeC1kj5Geqw5BjIwdGYfan4clEdUeGUgMTewbKIIXDj07t13VjX+i/pEPqV547MQ+FqE+xA8LNvbzrQY0hg3EdigxAO2YiuaAumeUTKm7Aq0xtCdqRyq9wO0gLxPAUyaQA73IFCMAKDWAi0BUPf08CXQUXQe0U/y+D56balXEx3ITimbpBPsk5Ib4aV1/9RWrAP6ky3iDQcseSTq3WxPXDTRBUp+c2Qk0jnPItP2Pvv/xPJFF/HtS2Z0DUTm/H+sbB9QDNa9xitgAbI39dbFydIja08K29ZJuHTdxVBhS9y3qBSwm2ZTo0Scz8KvX0ZXmQlBGTH5pArb2PI59+TB/0px42gtBD5kLehjt+cr+saReARfhPlJVjIk0bAGYeMuBwTv8AeGUJa5cevzY2LtPmqpXymuXzD5f3PMoXaRyWDjm9lezYJEC+WZA+8SibOO0OrellcQ0rzYErhjTpxGL3ZWEvvfZi8GMMbzoOZWDe+xk1jBdji+mdQv7FH5aqMIdZ/3SO0noJ/8EEEzhzWFX8wAA 1x, data:image/webp;base64,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 2x" type="image/webp" />
+              <source srcset="/html-css-fson-89-sidlicki/assets/victoria-53fb6f4a.png 1x, /html-css-fson-89-sidlicki/assets/victoria@2x-e794062b.png 2x" type="image/png" />
+              <img src="/html-css-fson-89-sidlicki/assets/victoria-53fb6f4a.png" alt="victoria dobrzhanska" width="80" height="80" />
+            </picture>
+            <h3 class="reviews-team-name">Victoria Dobrzhanska</h3>
+          </div>
+          <p class="reviews-team-info">
+            I love this chocolate bar. Perfect combination of light crispy wafer, covered in a thin
+            layer chocolate.
+          </p>
+        </li>
+        <li class="reviews-team swiper-slide">
+          <div class="reviews-img-name">
+            <picture>
+              <source srcset="data:image/webp;base64,UklGRhAEAABXRUJQVlA4WAoAAAAQAAAATwAATwAAQUxQSH0BAAABkFZtb91IHwRBEJRAMAQzmDCoGTQMXAaBYAiG8EEQBM3s9uLY2svPiJgAXC1pr410d7featkEC0u60weyJlljO83H1zSd3MwvZtaZ5GY+IW/zZPqkzHNo84lPneDLfGrLV8ndp79fo90X7HqB0pekDlP6otRBSl+WOkTpC1NHdF+6y2d3X/z+Ufbl9w/U1jN97/QA21vZQ8zvMAbKq5sHWV4oozB5lj3M8oxx2JPkgW6/1UhOAOKRmgApFE9AjeUAGAshHqxs0aQSzf6IprZoWo+GFo7/92U0Fk5v0bRHNHWPpqRoNolGwFgIHLFUIMWSALFQBMAZSQWALZL0GywO4mmJIz8Ti4L6DCWKgpfCGIg3cwz5HbQITryttp7pe9jXy/j0WO3Ax9LX6hioXIk6Asp1qBirXIWK0co1qBivfYWuuPSY7xBcnG0u23G9njM1xZSZszBj2sIZrAgm1syrrAhmT48L7NywpKQHR/BIgoVlK7V1+41sdU+CqwEAVlA4IGwCAAAQDwCdASpQAFAAPoU6kUelI6GhNbabAKAQiWMAvgRlCJpNmmQqNFZ40Cgr6FruA2YfcR3eqy9nIttWhwcZjKT0X+HqaanQZvwpEeBi0zZBD5e57OXm+kAbyuI3vv6+qdHRtGV1cuDWMswvFqsYAycHzoz7pkCtcmU+jKycCOHU4QAA/voV/+0/6Gs/80NPIy/VLyS/+0PZL05/ybp6CF9bu83vNVNOlC1WEfqhldMxX9KEZfLRccifvVnAYs5TE1NqCATGY+iW3fB0+n7bHn0tHmoqVm/4tkwQClu1CSJ6zth2DQc6x5XllV8f6Ubw55ejOYAH7r1R1VlEs0IOJBtOHdc6rT1o/lJxbX6NxTSDp7mRNixPd1a5gg99iqb6URuuVDuIyMNRB1T752beJPSreRBCfYNc6MPSke+5aPTFOTXr3DtJF09xML+6jllRq9YJx61OYfwj7zDJMry5xwZqgmr6LGjUHj5qhpsnpmQMBz4tTGCVDms80VvObKBQMtaW+eMf+qY9D4ztMxrikx3hpQJQXjJLjCYty9fVDLRG9qTmuUSf/VrtdqnFBDVOovqG7LVm7OpV+BsepRZ99nTp+JLyBdMy+EijSRIn6j7RSgScxWCyXdI7RFtKVcCd/nIUqyX6X/Ft8Fz7bPo0REwfvbD1pNETv4IFmJjkdfEW7PfGUx4C3bdZf+vGOaSueSP+TL+waYkspZLMz0JY0NwvVVk60DOJjC5XWGKqqjzHJUzCqmuKRtTp3C595n+UX3AKCUI1J8W7EMIcgBjzKtb8sxfLFgagPOAfD6UqbFod2x7JiixzTWkQ4xpAAA== 1x, data:image/webp;base64,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 2x" type="image/webp" />
+              <source srcset="/html-css-fson-89-sidlicki/assets/nazar-fdf6d1be.png 1x, /html-css-fson-89-sidlicki/assets/nazar@2x-444c4d29.png 2x" type="image/png" />
+              <img src="/html-css-fson-89-sidlicki/assets/nazar-fdf6d1be.png" alt="nazar babenko" width="80" height="80" />
+            </picture>
+            <h3 class="reviews-team-name">Nazar Babenko</h3>
+          </div>
+          <p class="reviews-team-info">
+            This chocolate confection is a delight! A delight! The wafer is light and crisp, the
+            hazelnut cream is smooth, and the chocolate is good.
+          </p>
+        </li>
+        <li class="reviews-team swiper-slide">
+          <div class="reviews-img-name">
+            <picture>
+              <source srcset="data:image/webp;base64,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 1x, data:image/webp;base64,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 2x" type="image/webp" />
+              <source srcset="/html-css-fson-89-sidlicki/assets/olena-870e673c.png 1x, /html-css-fson-89-sidlicki/assets/olena@2x-ee7eb354.png 2x" type="image/png" />
+              <img src="/html-css-fson-89-sidlicki/assets/olena-870e673c.png" alt="olena kampusch" width="80" height="80" />
+            </picture>
+            <h3 class="reviews-team-name">Olena Kampusch</h3>
+          </div>
+          <p class="reviews-team-info">
+            Chocolate is a family favourite treat. Love the delicious smooth chocolate and the
+            creaminess inside. The wafer is soft but crunchy.
+          </p>
+        </li>
+        <li class="reviews-team swiper-slide">
+          <div class="reviews-img-name">
+            <picture>
+              <source srcset="data:image/webp;base64,UklGRowFAABXRUJQVlA4WAoAAAAQAAAATwAATwAAQUxQSH0BAAABkFZtb91IHwRBEJRAMAQzmDCoGTQMXAaBYAiG8EEQBM3s9uLY2svPiJgAXC1pr410d7featkEC0u60weyJlljO83H1zSd3MwvZtaZ5GY+IW/zZPqkzHNo84lPneDLfGrLV8ndp79fo90X7HqB0pekDlP6otRBSl+WOkTpC1NHdF+6y2d3X/z+Ufbl9w/U1jN97/QA21vZQ8zvMAbKq5sHWV4oozB5lj3M8oxx2JPkgW6/1UhOAOKRmgApFE9AjeUAGAshHqxs0aQSzf6IprZoWo+GFo7/92U0Fk5v0bRHNHWPpqRoNolGwFgIHLFUIMWSALFQBMAZSQWALZL0GywO4mmJIz8Ti4L6DCWKgpfCGIg3cwz5HbQITryttp7pe9jXy/j0WO3Ax9LX6hioXIk6Asp1qBirXIWK0co1qBivfYWuuPSY7xBcnG0u23G9njM1xZSZszBj2sIZrAgm1syrrAhmT48L7NywpKQHR/BIgoVlK7V1+41sdU+CqwEAVlA4IOgDAABwFgCdASpQAFAAPpE6mEgloyKhLNZsyLASCUAXBO9xXDQIBoetwBz2Vk0v1xCfmU3Vs/3THjZ69uKPG1F2DBT8qFM7xRJEi9WUNJ3Ov+zqKB0UvQqE222P0HIKWkwaCAsw9wLB6XLE6HgIdjpbpgc99UD2GarwrJuMA5IdNli1pokHV8xoTkC6DhOuZN2Vkhx6JMeFDT6vvg9eY0tW5MtsL+Z0ofApLkC0B1MH8K+vqlOUMJulSJs56CKAAAD+/3waj5LuNgAWCCbqXfn2OBT56FuaOHRi+n4HCKTJ8ZIECwV9MKfYWeVCgVT8PJo5gHzcVbOEziSWrmX36xf1ii8cMP3HaC/oL4p+mnepT+klZiPF7q60o216O61SquDlaHYN5mkWZ79xyzuHyr+I5OUpFU2Yr/6iEani0OH+xjtvjndHbNHt1/8+Pe6svQdgtJ8/8Qv7M9DsiFIg+G7hVjDg79zty+3+7UOPrG7IyvyHzIkXlzRhPo10HmEGXPr8D/q/3FKO/9EdD+/COaQiYX9/SquftKwz4lXlsOYwOJVRY5n0ZH5/cHSBG0y9lTJLdKSxhhN3vYviynhlAOZhwCm6yQy0gAB8o7yJXk5rMoU4DUrvy0vh3aOh0Y9y4moaKo2EHIkbbWOFMauzC1jiKLNoPa1OMZb4YRevVzFo6Pv1Z08m/1+w+BePrvNN7BUWDsUnQk375fOwx33+IH/GpN0mqckMPv/Qcv49l3pmMY2SAZv9rpuGt/nwp+6FkAdqqcb1CkDRodpax8BbwACzG559B7EDZyrqfLsbfWDF1U7Pb/CAjkQCx2U/N+3K9Vl5MKPSdQ1cDCRxL+yEVZSHQmgCr8VPiBUNz5xRi/wswxCkEV5iGx4XB6VjnKdajtCfLTfCvK81sirqPLyvcgugnXN0rAHN1X9HALNZVBsqqJLjeShVe/8D1Ii7ayCHFiTJIdRZ4VMEf0PYpgX4HPXRHGPzhqeokntm8ZB+sxdjIxBTBa8eHxUImFWdTAnPQNZ9fAvaHreiI3IIl5yTLFGmcjCAO6HXNyOV5iE/LA0I9AtwmPJ/ywIiqkOK8n3rlq6hPAPKakwF/Sk5RnE3EsnScloyJrdWeqnYqgS/pO2f/bncXBmZCr3GsJHFEEgU6Fl3of4DthcOPjtEx7yXAswnIOHMj4AqEUpEOZPJGvgTP7hFTYOnWL8FplzuuiccuCStsj1OeJUNhK4QMcyPRH5itUKaG2Fr44nXV1TY2qAKC2RpFjVxSPAQWKbxRF6m+RA3mSU2KlQUvrbsIT6Vs5T9TvQCVVFLzfW5HVT3nrSgYCjrRtn4ypSGuQAA 1x, data:image/webp;base64,UklGRqALAABXRUJQVlA4WAoAAAAQAAAAnwAAnwAAQUxQSPMCAAABoFVtWyRJ+iTgYH4JISEkhIMOB4WDwEGEA8JBlgMkIOGXgIT/IrdY+L/ZbiJiAtDDMExxzaWq2sumtTzWOA0gMEzpoXZifaQx+BXmVe2SNU/i0LgUu3SJgyuyqN1QV3EixGK3LbMDsjS7tWbp21isg1n6NRbrZJY+SbGOZulPWK2zWTrz06y7OvdkKNZllW4s1u2lD1Kt4yod+GnW9RbvFlbr/hpuJdUcVLnR2MxFHW7zx9yMN1nM0eUWi7m63GA1Z5fLZXM3X2wxh9dLLebycqHFnF4u82Nu/7nIYI6PlxD1rMkFgprrNZy3mvPraT/mfjxJmn9NzlEjsJ6yGIXpBDESh+OUhXLYbDTGg0R5aOGYbESuh4hRKUdkLsoBYmSO32U2yldidI7fZD7KF2KEymeZkfSZMtLCJ7NRGj8pnJQPxEj9693GSnqnrOibwWgdX0Ve0qvCS3khRmx4mpiZnzIz21NlRgEEozYAIzcTkLhJwIObX6Byo4CRGwZ2homdKbITN3a2Bzu5sFMqO1XZ0UaP/e9b2Wn0aGWnFnbKzs7vxs4W2YkTO9PAzhDYAZSbCjy4+QUSNwmYuBmBwE0AoMxUANiYyU8zM9NTYEaeUHgpeJl4ia9GXoZXUFYUbxMr2zthRd6hcFLwYeRk/iQ0RhQfJ0byZ8KIfIbCR8aXIx/yDQobGV+PbMh3KFxkHChcyBHYmMg4NDQeVI5B5GHG0YUFxeEDC3IcEgcJZ1YGFKdK86/JOYj+RZy9ebfh9FB903AepHmmgiuOng245uxXxFWTVwnXTT4lXHnzKOHauz87rp682XD95EvCHZMnCfeMfsy466A+tBH3FfWgCu4ctv5tATePrW8t4v6iPauCLqZ+JfRStE9lQEdn7U+L6KvsvdkCuit7T4qgy7L3oozotuw9KCO6LrveqyVB/+dynxIDfJRN76BJ4OkQy7VKGuGvTHu9hm5zgNthTI96hj7SFEDgMMXtUaq2V6q15C1OQ0APAQBWUDgghggAAJA4AJ0BKqAAoAA+kTyaSSW/oqYps81D8BIJQQ4ALq7UNqfXH2+2bC3eSkKbh3nztM73oPGkUk2M02rFq9RNOLIwpe/MIJaTFhOe+ZPJ0oQZ4Dq0kde5WtfiQWtr8uOc+lLuvZS+BRzv3JX+XQqXA4NrqlfApj71lkm5/g0gIQqrw5HlTcPUUsEiqiwF3zzGxD7s8glEpzQ3t1XKJWxtwdj1tmFrPUkjW5tIOh6B/nlKN06X6NfwHslBflQrYs7V64v0xZ8c01JweX0GZcUWNrvhMm7Rt6cz80ntzvn/FF9lWOGjK+0q8ZdWT85ijkd6y0+M2T0fSZoKIC0SfWpKZ38LuYFMp11gVQyt4t7I8E7eEOQghcGWHQ4haWf0x97wyXVljkGzCTVUcdKi0+6BgVfGImCDn0WAc1iNMMU8mzWygzpmTVmO5I3GHHo9IVOIh6NTeHPNunXAtVDXVSFIBoKz/ozzxfNqQokVoGIN1Vjb1kGhE9xOpx9ZQ+WGoO+3/9M+kpt82VSwM5Y5tlf9sTrjOtCO2RI1SciqhyoUczl3TwCo105Of0B0JUD8/qHbWaOOSMfcVjE+x9p3hmcxs/Dij5WhWAGfkjy1NVQAAP7IYADk/xetL/P5+WSkNljZTJBLn1jRF3MoSNAy7ti3dHqD8Z+GD6VL+uvLCXTNQGezrIaeoS9CRSm7v0BaB5lGcZlZTu9ErdVo7X4E5I7wyi5r1mMaUwYQRH1i5zgmGeykp/4QXDOVbRZ+Wuqe4rtH8N2iX9ajLhsogqvy0q4x+XXT6j553heL527Yf2JRVDJmJv006uix/XV857oWb/UxqUAmsiPoP3tXXlaUd1125DKb+mCYKrtFCCR+QK+cIOHXJ1KB4O/sC6EMgT1gqLd7E1iU9fS97YK75GuAVeWGGCt1z+Cdp6oZ7LcGV26fpiw69Lnju4I+GgHaVwCKIFEKjCCPZ4aFZu4A3ReIx80gu6Z2b95sh/N/i/CeLGJ/Wi4uAppew4fR0Fpvan4/KTrI4cjETdbiWBzQtRLS95LWIVYpid5MLLmi8Q3na4SZ4yE/vLvStL/RcHzAJaCusswGxeCadckYpjqhgHxrmluYNl0fqT0H4Isn7XFi5/ENUUNxxzyv2FsKQj2qQVV+hm0flfJNoKYpCQp0H+tht4dY1R241aktjoXN3ZO06Iq7fE8pHZm+zSlbrkh3nmXPq8z06Pfi5nOAjKtfDWWQPBt7RRFKqWCQPExCiI6AKeG55O9WfRXvXo8Op6kRpZzVsNLoWrOuxY6dU2b1YoqWOk6bsg4F+R3lvDxRu/z5ilUdXKviMGVEIvelB4rd8ywrhhfQUZd1sAqXzYjdpR8fbDRShgb8DXXwWWtkkrXfYGqYH81sKmyfiy943epVcdbEFOMYcepGSwJHlSLlLJUiSaAYqHUiSfU1Ybhvbt2rZgEK3kxsGdINmJoDwzreKr85J60Xg6wgTpL8YVgoJCYvZ9/+WujFu6h000j1aNEACwtNFw9nm28MbU1w7P1bqa3Wk5f5mdOuA6JMNR7BdIQExvxI4cwckfz2zkPJXk89jVG3OTkQjqCOyVtXHHxw6ZoDlOO4DvUI8NyrHEAFotSpEaq38YEUwaealFKzbu/UpimziPBv3ERhuVmtxQIbIfnHGQhaZnVxhL9eJ96OEYCbnscBKP5/9Q4goIw2vboE1S7wZj0TyjV3pt68ws2LD9rakcpuJSOqfjAe33MwJrKGG283Ac8uk1rMi0St9PJAprn9mYpnWWR5SYleBzi2y8jzOAfQKsKQA4GbQkMyYaI1vKD3K3DQ9/Kc+VJrghmriHK9nU1CJCEetth4TGFtmMUE6/EEdRTq6a0Mcuo8YPuYpIZoKQ9WGxDweudf9/mTDHOZoj+HnmTSeV9ujcIU0Dku/nH++oRkkcTZvmhTnwUNxBu9vJrri4NA9U7N4Z01Awu0Z1c9zCr/VE9AWQTXWo7oOoaGEdutDd6lNht5mYeIfL+I+OH24E8/LsVkzbG/BN5x+98UNHcHgUgajtuOubjlnc6FeXebVkHWRsnoWfRuwA2q0hxcVEtsUuSkuBtzf/Uq9WY3tQy7kSeIiFGdmxbNE0r7R8lGyJo6Ga1qkoYjY8T2ZJbxw1BCfMcsjwRHSbrykCf0yXGdBFGVAFYaTrzudo9ZPqeE0Naabz517qClw9SCGhAqFJJE29NFJoPUQJ2X/al4spoIrY/ZjI7PeRChgORC9icE8wKAi6p9/CaYzvAA14HjOd8RC5YM2coqe4TTYMj10iuSsv+6n1X2T6ZhZtvXHI46pTHKV+Jwjr2cZsFXdSbEYc+k9d2fT/03/uT//Qlfns56YNkxTfJKXIh1CAZbDf+1lc7cz+hRFElYJvIjRmCS5bCMgXbOH4hYJGmdAYFOWxybkSzMda71SqfwfsPWTfg9gkbxcYYhrj+HRDbJrYjqxos0W8vl+d5OHqHD0KNk8URSxOHvsPg+lDn8wCGKlrXqthHzg/m4IP7cYXewKZUyKArtBMxBKBHIWd8SuAjECZ9ciVK4eLg/vtPio3CVTjLGBIHTwV/DLsahri/+GqNcIPfbdq4Ued0djVvDjngwzqAf1oob+8SgHW4WK1dCFKgfrWozYOLi1WN4SYdbO+TXrxgyIaCsW5GfczLMr26aLFUP3GJe01XCtbrykrkQF4eeUGc9LpTWfNdeS3JSrC7VtYaFa/9dICb3mvX48FaBI0k6Pov9ZM545Cavv+qHHWACTAAA8gxY+oEnGnRudjQy2yvTrGvxglevXJkslNtrfF4kvNz7y2KQG3SlNEoauh1N7tRug6j7k8JQ3hOhzEBMrVd1zc9lTH0btZyXmYosuDfW4MnQv+HMZToLPBlfOP7+tlTx/ecGZg7n+gava++xnGKAAAA= 2x" type="image/webp" />
+              <source srcset="/html-css-fson-89-sidlicki/assets/natalia-de4e30f2.png 1x, /html-css-fson-89-sidlicki/assets/natalia@2x-886e4de0.png 2x" type="image/png" />
+              <img src="/html-css-fson-89-sidlicki/assets/natalia-de4e30f2.png" alt="natalia sus" width="80" height="80" />
+            </picture>
+            <h3 class="reviews-team-name">Natalia Sus</h3>
+          </div>
+          <p class="reviews-team-info">
+            The chocolate assortment was delicious. Both dark and milk chocolate pieces were smooth
+            and just right on the sweetness level.
+          </p>
+        </li>
+        <li class="reviews-team swiper-slide">
+          <div class="reviews-img-name">
+            <picture>
+              <source srcset="data:image/webp;base64,UklGRsoFAABXRUJQVlA4WAoAAAAQAAAAUAAATwAAQUxQSHwBAAABkFXbVthaW0Ic3CMBCUiog4eDi4PgoHHQ6yASkICEIwEJ5yNpC5w9xvuNiAnA9JCeZ9NuZqb1fKYA1yHXbgNrDk62vdl4zbJerDb7FdeK1Vasso68bNWXLPLbbV3NK0i1tU+ZFtVW1zDp1zzmKbv53Cfs5nUftpvffdBunvchD/P9b4B0Z12+U/Ou2zdP8//8IhjD+JlS0I+SccwfiJLo27vdWJZ3SqNvd8l45rtGpN6IMQ2Xg0q5NCoNgBjXDUhkEnCQOYBKpgFGtkPY2E+kEx90UuZT6JT/skQn83lEOlHo/KCzARqZChxkDiCRScBGRgA0Kg0ACpXjEqjIBZVIw20mku62TkPxttAo77ZOQuUdMomET5WC4uNIIXyGg8CBLzd1p/haurMu3yE5e2BkcVUwtjgqGF3cFIwvTgpmZhcZc4MupxGz5VysChbMulDPWFP+lnkJlpW6RI1YOv5NqxHLS9YJrWzwGXId0WsOcB3ScVa9dG3nkQKmA1ZQOCAoBAAA0BYAnQEqUQBQAD6RPJhJJaMiISvUbKCwEglpABIOWpn63iANCsaDMGdIumFgLeZLGs7LO9wt0xAx74PUyvvMBpsGU8hjcB9vlRSjepkt32AcX7F9XXTQDKx/lITaW0WoHmi8IJidu1eB/sZ4pP5tmAmjfF8mh40yIDGFCEJmLdH4qvHA06QvcgX8Rhn0o3xc/Ij1jfXLRNlBjHxp6z14DGgu/Jyfjf/+g0pXOc1id9rYrUPEYc0oRmAhstwV6WgA/v7MsteB1rvYN2jqwjMrbs57pkGndRf+xFd+9SWRipx9kF/nQl2WvttKSl+3e7scPF74Bpspwk5jHl4YM9umaHCEqmisNxBtBnZ035ij0NxIzS4Z1XYID/Xrm3DYrpUxvR/wvyrkW/ceRxDo6oq7j8jG5LF4lDvaXpFQL9BouQHMk7qQQb24EujOoEMJeyvbA3hpRC4aCVvNGr57qo8vHGv22Aj3pBVofj3TIdgXJPEDdTqVs+QbZIC0WUgl/F8/yDPTfytZEQFFR/1kWduus4TiQvLqYsBqhcX2UPTGi+ragwWbG9f09zXPD30khiUXIrAEu8fKEIJ+gEp3hXJr1fqIaS8CXbQ6l9PeatluMCyXBLAvO+tWkGyuBSs6Ue8v3pIQ68klkbtLCQTWUcEGl4eIwJYTuiJo5nCbw0AXi3zTinc0rNQvnyRXmvIPV2+fZ24cjFFqpFADD7t8iN6Jy8FrpOO+lJt5e5AxEMVrrpH3h1OQow7aBgdg59/KoO54UsR3yO2VSbxv9KXDjnwskj5xxlYeuoXm82qizyIczEMfcVF1/FlesyCXrXGXQRFsLNpcQfETi/8J3l8QEq5NMrumwh7terMBBIc601XtEQzLL9czhyoKGW7LfK7a/tJ2OlTtfLqA9wCG9hW8T0o5q+GbEPpb08g90B4mjweN91whwO2yiNpgQp8n/VqQl908F74miHJxGDfonUy9UvodAPh0LJc/dGjO3hyQf28a7dDqfhy6V0NA4DED6Ul/au97QTlwqXPR8aOtH2CPenLt79pqfsU8M0eDqstC8jywG/c0BMLcbcFxhnQarjKx6/7b5p3spYOqq1oZgtRST2OqxwpiUbQVO9W8tvd8QWg5HvNXToPcZQNlAy4/KnlpDopBhQsAdEWhqQ9YzqsrxufQkY49LCIEm6i+swdayF79Ahg5MpqHb3X+teATCnntYbDkugGrggohQHQ+2SQp8zWyKOtTlb7iwC27MjMxkdB5L3Au16gPIwhKf8ltY9K/liTLdt2inikmot57MmelQB1apfq5I24Ei4rDSpdlIvXk5TaHaNAMhT54cePNoLUZt0WUwivuGlF6WGvIVJLz50DQbI1fJAWaTP9keWjz4ctl9bpEy/ByZWy9epoqwA6KxLWwHCjL+SOAAAA= 1x, data:image/webp;base64,UklGRsoFAABXRUJQVlA4WAoAAAAQAAAAUAAATwAAQUxQSHwBAAABkFXbVthaW0Ic3CMBCUiog4eDi4PgoHHQ6yASkICEIwEJ5yNpC5w9xvuNiAnA9JCeZ9NuZqb1fKYA1yHXbgNrDk62vdl4zbJerDb7FdeK1Vasso68bNWXLPLbbV3NK0i1tU+ZFtVW1zDp1zzmKbv53Cfs5nUftpvffdBunvchD/P9b4B0Z12+U/Ou2zdP8//8IhjD+JlS0I+SccwfiJLo27vdWJZ3SqNvd8l45rtGpN6IMQ2Xg0q5NCoNgBjXDUhkEnCQOYBKpgFGtkPY2E+kEx90UuZT6JT/skQn83lEOlHo/KCzARqZChxkDiCRScBGRgA0Kg0ACpXjEqjIBZVIw20mku62TkPxttAo77ZOQuUdMomET5WC4uNIIXyGg8CBLzd1p/haurMu3yE5e2BkcVUwtjgqGF3cFIwvTgpmZhcZc4MupxGz5VysChbMulDPWFP+lnkJlpW6RI1YOv5NqxHLS9YJrWzwGXId0WsOcB3ScVa9dG3nkQKmA1ZQOCAoBAAA0BYAnQEqUQBQAD6RPJhJJaMiISvUbKCwEglpABIOWpn63iANCsaDMGdIumFgLeZLGs7LO9wt0xAx74PUyvvMBpsGU8hjcB9vlRSjepkt32AcX7F9XXTQDKx/lITaW0WoHmi8IJidu1eB/sZ4pP5tmAmjfF8mh40yIDGFCEJmLdH4qvHA06QvcgX8Rhn0o3xc/Ij1jfXLRNlBjHxp6z14DGgu/Jyfjf/+g0pXOc1id9rYrUPEYc0oRmAhstwV6WgA/v7MsteB1rvYN2jqwjMrbs57pkGndRf+xFd+9SWRipx9kF/nQl2WvttKSl+3e7scPF74Bpspwk5jHl4YM9umaHCEqmisNxBtBnZ035ij0NxIzS4Z1XYID/Xrm3DYrpUxvR/wvyrkW/ceRxDo6oq7j8jG5LF4lDvaXpFQL9BouQHMk7qQQb24EujOoEMJeyvbA3hpRC4aCVvNGr57qo8vHGv22Aj3pBVofj3TIdgXJPEDdTqVs+QbZIC0WUgl/F8/yDPTfytZEQFFR/1kWduus4TiQvLqYsBqhcX2UPTGi+ragwWbG9f09zXPD30khiUXIrAEu8fKEIJ+gEp3hXJr1fqIaS8CXbQ6l9PeatluMCyXBLAvO+tWkGyuBSs6Ue8v3pIQ68klkbtLCQTWUcEGl4eIwJYTuiJo5nCbw0AXi3zTinc0rNQvnyRXmvIPV2+fZ24cjFFqpFADD7t8iN6Jy8FrpOO+lJt5e5AxEMVrrpH3h1OQow7aBgdg59/KoO54UsR3yO2VSbxv9KXDjnwskj5xxlYeuoXm82qizyIczEMfcVF1/FlesyCXrXGXQRFsLNpcQfETi/8J3l8QEq5NMrumwh7terMBBIc601XtEQzLL9czhyoKGW7LfK7a/tJ2OlTtfLqA9wCG9hW8T0o5q+GbEPpb08g90B4mjweN91whwO2yiNpgQp8n/VqQl908F74miHJxGDfonUy9UvodAPh0LJc/dGjO3hyQf28a7dDqfhy6V0NA4DED6Ul/au97QTlwqXPR8aOtH2CPenLt79pqfsU8M0eDqstC8jywG/c0BMLcbcFxhnQarjKx6/7b5p3spYOqq1oZgtRST2OqxwpiUbQVO9W8tvd8QWg5HvNXToPcZQNlAy4/KnlpDopBhQsAdEWhqQ9YzqsrxufQkY49LCIEm6i+swdayF79Ahg5MpqHb3X+teATCnntYbDkugGrggohQHQ+2SQp8zWyKOtTlb7iwC27MjMxkdB5L3Au16gPIwhKf8ltY9K/liTLdt2inikmot57MmelQB1apfq5I24Ei4rDSpdlIvXk5TaHaNAMhT54cePNoLUZt0WUwivuGlF6WGvIVJLz50DQbI1fJAWaTP9keWjz4ctl9bpEy/ByZWy9epoqwA6KxLWwHCjL+SOAAAA= 2x" type="image/webp" />
+              <source srcset="/html-css-fson-89-sidlicki/assets/danilo-19056849.png 1x, /html-css-fson-89-sidlicki/assets/danilo-19056849.png 2x" type="image/png" />
+              <img src="/html-css-fson-89-sidlicki/assets/danilo-19056849.png" alt="danilo nottingham" width="80" height="80" />
+            </picture>
+            <h3 class="reviews-team-name">Danilo Nottingham</h3>
+          </div>
+          <p class="reviews-team-info">
+            This is delicious. It's so rich and flavorful you don't need to use as many. I love
+            topping an apple with almond butter and these chips for a snack.
+          </p>
+        </li>
+        <li class="reviews-team swiper-slide">
+          <div class="reviews-img-name">
+            <picture>
+              <source srcset="data:image/webp;base64,UklGRmwFAABXRUJQVlA4WAoAAAAQAAAATwAATwAAQUxQSH0BAAABkFZtb91IHwRBEJRAMAQzmDCoGTQMXAaBYAiG8EEQBM3s9uLY2svPiJgAXC1pr410d7featkEC0u60weyJlljO83H1zSd3MwvZtaZ5GY+IW/zZPqkzHNo84lPneDLfGrLV8ndp79fo90X7HqB0pekDlP6otRBSl+WOkTpC1NHdF+6y2d3X/z+Ufbl9w/U1jN97/QA21vZQ8zvMAbKq5sHWV4oozB5lj3M8oxx2JPkgW6/1UhOAOKRmgApFE9AjeUAGAshHqxs0aQSzf6IprZoWo+GFo7/92U0Fk5v0bRHNHWPpqRoNolGwFgIHLFUIMWSALFQBMAZSQWALZL0GywO4mmJIz8Ti4L6DCWKgpfCGIg3cwz5HbQITryttp7pe9jXy/j0WO3Ax9LX6hioXIk6Asp1qBirXIWK0co1qBivfYWuuPSY7xBcnG0u23G9njM1xZSZszBj2sIZrAgm1syrrAhmT48L7NywpKQHR/BIgoVlK7V1+41sdU+CqwEAVlA4IMgDAABQFQCdASpQAFAAPpFCmUolo6Ihp7VcMLASCWIAuzQOy4EfP4bgBsHP0AcFqBOf3ST8oDfY9jXtYcmQi9P269Sco/71Cg8JRXMnaEAFAOpVBB15+GAid496cNWhpxKIrLXddhjN5lNEuszZIEkHtyskj+qbOwsZUmyf2trW+E8AlIKmDG3UKI84nHSXLjk2o/Sy6KCC9RLLUfuzy/FUy3E6FqI3glVwFYqwAkwMfL4A4s4HAAD+gKhul+oZ95Z9R2NWUpKT9ydQJCwZI+7j7DsnSsbjfd3v+7lTGgrzKjT3jl1wZzk7nIAI8/GqAsTHRHhXulaBj4LAZcKacRs3R/c8l8dmOZFLEHm6o6Av62NXUX/7Eem0J45QgP6Ak6G8ni6jV7+gOkxa/HvcLlP2W74Pgyu6kz0ovnvD90MEmPY0ZWSfIopjRRMQ4/T0YB91n8WhBtE7xGOvwpaVVXFrmOEElDBXgpk6M15n5Hcsl1derEbzM9Q+3luTtxsmJzlCgFtnY/Kw6o2MczpkrZ6BcaZMY8t4Jt0VoynexnvZQsNzCHkYzB+d0xOLw4fv+Jkez611ES8wMwGWW/74OSxAdaWEmit6JkjYxnP7qXplwUsfSxmkMUOd9UyaFi3n+VmAGhE7fNtDu4qOUFQ8t8EeQLbffStksKueWv1/Y8kdM0Q48BufGGN2P1dROQ1uylUJjFCKIi4GdC5taH3d+T0FOJvdTMXqF+E4baRt60PrvqzvOYHoFdQcPgFtdLkuI+TA335zF16pF6YbJ4yH20iovCMYWkptcUmjGfmYuHpRZovZxp30VK5CW6xJ0wvkxZYuOIrJRYEqC13NhcSskRkDSCuzwImyVvS70ij0Qj8/dCo63TAccJEn+dbRkkEK3m/2IyAX5S8rRn9rPC1PI7bvjhmv2TPFB8komnk+eLbQ8NReVxOIEfC84C9nvaB0peBzcL9ZtpGLgmzUgYH/2AFQJ/Io/iFwWxUtQE671gzSDj7kRGMpussqcd4UnTS+54R5RSl+2mVMJW/yIN6rTPiHdWQgHiwJ/I95qI3JN56X/vJ8hlO4fyN4sT+cg7mWqjWHYOnAeA3yJpeYtuVxNIAIKKsvotyx3hQ/4dJECh7YSUwooadYH9zZtDuGusrjpphfFkQh6+g5eU25Q9OdKUpB2HVv6DsDBR18RP906e5bDAfwPG+2qDj6ilobNftbqrU4dnURkR4YC/fUCjTBKlfhSMqdEuS1JrdWpxqgPAtjkB/C4VlBW+/+oSKB5N6+dOH/E/MF6BRQMvYAAA== 1x, data:image/webp;base64,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 2x" type="image/webp" />
+              <source srcset="/html-css-fson-89-sidlicki/assets/irina-727c530d.png 1x, /html-css-fson-89-sidlicki/assets/irina@2x-bd7522c9.png 2x" type="image/png" />
+              <img src="/html-css-fson-89-sidlicki/assets/irina-727c530d.png" alt="irina tydnyuk" width="80" height="80" />
+            </picture>
+            <h3 class="reviews-team-name">Irina Tydnyuk</h3>
+          </div>
+          <p class="reviews-team-info">
+            This is simply the best chocolate around, and I'm just thrilled to support a local
+            company! Best local chocolate - world class &#58; &#41;
+          </p>
+        </li>
+      </ul>
+
+      <div class="swiper-pagination"></div>
+    </div>
+    <button class="reviews-open-btn js-open-modal" type="button" data-modal="2">
+      Leave a review
+    </button>
+    <!-- твій код має бути вище цієї лінії -->
+  </div>
+</section>
+<div class="reviews-modal modal" data-modal="2">
+  <!--  клас який потрібно накинути для Svg іконки для закриття вікна  -->
+  <button type="button" class="reviews-modal-btn js-modal-close" data-modal-close>
+    <svg class="modal-close-icon" width="24" height="24">
+      <use href="/html-css-fson-89-sidlicki/assets/sprite-840015d5.svg#icon-close"></use>
+    </svg>
+  </button>
+
+  <h2 class="reviews-modal-name">
+    LEAVE A REWIEW ABOUT <span class="reviews-modal-name-two">OUR CHOCOLATE</span>
+  </h2>
+
+  <form>
+    <div>
+      <label>
+        <input type="text" class="reviews-contact-form-input" name="user-name" id="user-name-reviews" placeholder="Name"
+          required pattern="[a-zA-Z]+" />
+      </label>
+    </div>
+    <div>
+      <label>
+        <input type="email" class="reviews-contact-form-input" name="user-mail" id="user-email-reviews"
+          placeholder="Enter your email" required />
+      </label>
+    </div>
+    <div class="reviews-modal-number">
+      <label>
+        <input type="text" class="reviews-contact-form-input-one" name="user-namber" id="user-tel-reviews"
+          placeholder="Phone number" required pattern="[a-zA-Z]+" />
+      </label>
+      <svg class="reviews-contact-icon" aria-label="icon name" width="18" height="24">
+        <use href="/html-css-fson-89-sidlicki/assets/sprite-840015d5.svg#icon-flag-ukraine"></use>
+      </svg>
+    </div>
+    <div class="contact-texterea">
+      <label>
+        <textarea class="contact-form-comment" name="user-comment" id="user-comment-reviews"
+          placeholder="Enter text"></textarea>
+      </label>
+
+    </div>
+    <button type="submit" class="contact-form-submit">Send</button>
+  </form>
+</div>
+<div class="overlay js-overlay-modal"></div>
+    <!-- прошу в усіх своїх классах, крім тих що прописані в /reset.css додавати приставку -subscribe, щоб уникнути дублювання стилів -->
+<section class="subscribe-section" id="subscribe">
+  <!-- розмір контейнера вже заданий в /reset.css для всіх пристроїв -->
+  <div class="container subscribe-container">
+    <!-- починай писати свій код під цією лінією -->
+    <h2 class="section-title-on-dark subscribe-title">EXPLORE OUR NEW CHOCOLATE FIRST</h2>
+    <p class="subscribe-main-text">
+      From the velvety texture to the rich and complex flavor, our New Chocolate is a true
+      indulgence that will leave you craving more. Made with only the finest ingredients and
+      handcrafted with the utmost care, each piece is a work of art that is sure to please.
+    </p>
+    <button class="js-open-modal subscribe-opn-btn" data-modal="3">Subscribe</button>
+    <!-- твій код має бути вище цієї лінії -->
+  </div>
+
+  <!-- MODAL -->
+
+  <div class="modal subscribe-modal" data-modal="3">
+    <!--  клас який потрібно накинути для Svg іконки для закриття вікна  -->
+    <button class="js-modal-close subscribe-modal-cls-btn">
+      <svg class="subscribe-cls-boton-icon" width="24" height="24">
+        <use href="/html-css-fson-89-sidlicki/assets/sprite-840015d5.svg#icon-close"></use>
+      </svg>
+    </button>
+
+    <form>
+      <picture>
+        <!-- TABLET -->
+        <source srcset="/html-css-fson-89-sidlicki/assets/pop-up-ef4df1a2.webp 1x, /html-css-fson-89-sidlicki/assets/pop-up@2x-1d12489b.webp 2x" type="image/webp"
+          media="(min-width: 768px)" />
+        <source srcset="/html-css-fson-89-sidlicki/assets/pop-up-f14e2a13.png 1x, /html-css-fson-89-sidlicki/assets/pop-up@2x-ed610bc3.png 2x"
+          media="(min-width: 768px)" />
+        <!-- MOBILE -->
+        <source srcset="/html-css-fson-89-sidlicki/assets/pop-up-71c26922.webp 1x, /html-css-fson-89-sidlicki/assets/pop-up@2x-1d998536.webp 2x" type="image/webp"
+          media="(min-width: 280px)" />
+        <source srcset="/html-css-fson-89-sidlicki/assets/pop-up-552ad8ba.png 1x, /html-css-fson-89-sidlicki/assets/pop-up@2x-a04d5f4c.png 2x"
+          media="(min-width: 280px)" />
+        <img class="subscribe-modal-img" src="/html-css-fson-89-sidlicki/assets/pop-up-552ad8ba.png" alt="img1" />
+      </picture>
+      <div class="subscribe-text-wrapper">
+        <p class="subscribe-frm-text">
+          Explore our <br />
+          <span class="span-orange">new chocolate</span> first!
+        </p>
+        <div class="subscribe-form-main">
+          <label>
+            <input id="user-email-subscribe" class="subscribe-form-email-input" type="email" name="user-mail-subscribe"
+              required placeholder="Enter your email" />
+          </label>
+
+          <button type="submit" class="subscribe-form-btn">Subscribe</button>
+        </div>
+      </div>
+    </form>
+  </div>
+  <div class="overlay js-overlay-modal"></div>
+</section>
+  </main>
+  <!-- прошу в усіх своїх классах, крім тих що прописані в /reset.css додавати приставку -footer, щоб уникнути дублювання стилів -->
+<footer class="footer" id="footer">
+  <div class="container">
+    <div class="footer-page-wrapper">
+      <div class="footer-left">
+        <h2 class="footer-header">
+          <span class="footer-header-span">Chocolate</span> a delicious cure for a bad day
+        </h2>
+      </div>
+      <div class="wrapper-footer">
+        <div class="footer-contact">
+          <p class="text-footer">Contact us</p>
+          <ul class="list contacts-footer">
+            <li class="contact-tel-footer">
+              <a href="tel:+380684439426" class="link contact-footer-link">+380 (68) 443-94-26</a>
+            </li>
+            <li class="contact-mail-footer">
+              <a href="mailto:simplychoc@gmail.com" class="link contact-footer-link">simplychoc@gmail.com</a>
+            </li>
+          </ul>
+        </div>
+        <div class="icons-footer-div">
+          <ul class="list icons-footer">
+            <li class="icon-footer-list">
+              <a href="https://www.instagram.com/" target="_blank" rel="noreferrer noopener"
+                class="link icon-footer-link">
+                <svg width="22" height="22" class="footer-svg">
+                  <use href="/html-css-fson-89-sidlicki/assets/sprite-840015d5.svg#icon-instagram"></use>
+                </svg>
+              </a>
+            </li>
+            <li class="icon-footer-list">
+              <a href="https://twitter.com/" target="_blank" rel="noreferrer noopener" class="link icon-footer-link">
+                <svg width="22" height="22" class="footer-svg">
+                  <use href="/html-css-fson-89-sidlicki/assets/sprite-840015d5.svg#icon-twitter"></use>
+                </svg>
+              </a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+    <div class="navigation-footer-page">
+      <ul class="list navigation footer-navigation">
+        <li class="footer-navigation-list">
+          <a href="#home" class="navigation-link link">Home</a>
+        </li>
+        <li class="footer-navigation-list">
+          <a href="#made" class="navigation-link link">How it’s made?</a>
+        </li>
+        <li class="footer-navigation-list">
+          <a href="#products" class="navigation-link link">Our products</a>
+        </li>
+        <li class="footer-navigation-list">
+          <a href="#sellers" class="navigation-link link">Top sellers</a>
+        </li>
+        <li class="footer-navigation-list">
+          <a href="#reviews" class="navigation-link link">Chocolate is loved</a>
+        </li>
+      </ul>
+    </div>
+    <!-- твій код має бути вище цієї лінії -->
+  </div>
+</footer>
+  <!-- mobile-menu  -->
+  <script defer src="https://cdnjs.cloudflare.com/ajax/libs/body-scroll-lock/3.1.5/bodyScrollLock.min.js"
+    integrity="sha512-HowizSDbQl7UPEAsPnvJHlQsnBmU2YMrv7KkTBulTLEGz9chfBoWYyZJL+MUO6p/yBuuMO/8jI7O29YRZ2uBlA=="
+    crossorigin="anonymous"></script>
+  <!-- swiper -->
+  <script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.js"></script>
+  <!-- aos -->
+  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+  <script>
+    AOS.init();
+  </script>
+  <!--  -->
+  <!-- all -->
+  
+</body>
+
+</html>
